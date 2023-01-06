@@ -51,4 +51,12 @@ dependencies {
     //navigation
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    //Moshi
+    implementation 'com.squareup.moshi:moshi:1.9.3'
+    implementation "com.squareup.moshi:moshi-kotlin:1.9.3"
+
+    //Coil
+    implementation "io.coil-kt:coil:$coil_version"
+    implementation("io.coil-kt:coil-svg:$coil_version")
 }

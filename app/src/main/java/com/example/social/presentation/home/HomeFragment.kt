@@ -1,4 +1,4 @@
-package com.example.social.home
+package com.example.social.presentation.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

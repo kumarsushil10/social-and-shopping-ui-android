@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "productName": "Cloths",
+      "productImage": "file:///android_asset/img/productsImg/cloths.png"
+    },
+    {
+      "productName": "Footwear",
+      "productImage": "file:///android_asset/img/productsImg/footwear.png"
+    },
+    {
+      "productName": "Herbs",
+      "productImage": "file:///android_asset/img/productsImg/herbs.png"
+    },
+    {
+      "productName": "Wine",
+      "productImage": "file:///android_asset/img/productsImg/wine.png"
+    },
+    {
+      "productName": "Tech",
+      "productImage": "file:///android_asset/img/productsImg/tech.png"
+    },
+    {
+      "productName": "Container",
+      "productImage": "file:///android_asset/img/productsImg/container.png"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".home.HomeFragment">
+    tools:context=".presentation.home.HomeFragment">
 
     <Button
         android:id="@+id/product_list_btn"
