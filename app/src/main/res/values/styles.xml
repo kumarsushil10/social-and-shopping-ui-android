@@ -3,4 +3,8 @@
     <style name="roundedImageView">
         <item name="cornerSize">10%</item>
     </style>
+
+    <style name="roundedToolBarImageView">
+        <item name="cornerSize">25%</item>
+    </style>
 </resources>

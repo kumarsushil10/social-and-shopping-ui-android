@@ -10,13 +10,27 @@
         android:name="com.example.social.presentation.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
+
         <action
-            android:id="@+id/action_homeFragment_to_productsListFragment"
-            app:destination="@id/productsListFragment" />
+            android:id="@+id/action_homeFragment_to_productCategoriesFragment"
+            app:destination="@id/productCategoriesFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_productListFragment"
+            app:destination="@id/productListFragment" />
+
     </fragment>
+
     <fragment
-        android:id="@+id/productsListFragment"
-        android:name="com.example.social.presentation.products.ProductsListFragment"
-        android:label="fragment_products_list"
-        tools:layout="@layout/fragment_products_list" />
+        android:id="@+id/productCategoriesFragment"
+        android:name="com.example.social.presentation.productCategories.ProductCategoriesFragment"
+        android:label="fragment_product_categories"
+        tools:layout="@layout/fragment_products_categories_list" />
+
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.example.social.presentation.productList.ProductListFragment"
+        android:label="ProductListFragment"
+        tools:layout="@layout/fragment_product_list"/>
+
 </navigation>

@@ -7,9 +7,15 @@
     tools:context=".presentation.home.HomeFragment">
 
     <Button
+        android:id="@+id/product_categories_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Categories"/>
+
+    <Button
         android:id="@+id/product_list_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Product List"/>
+        android:text="Products List"/>
 
 </LinearLayout>

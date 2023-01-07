@@ -1,0 +1,58 @@
+{
+  "cloths": [
+    {
+      "image": "file:///android_asset/img/clothsImg/kotty_trouser.png",
+      "title": "Kitty-Trouser",
+      "subtitle": "For Women",
+      "price": "$ 1243",
+      "material": "Cotton 100%",
+      "quality": "Best",
+      "size": "XL"
+    },
+    {
+      "image": "file:///android_asset/img/clothsImg/coat.png",
+      "title": "Coat",
+      "subtitle": "Professional Wear",
+      "price": "3999",
+      "material": "Cotton 100%",
+      "quality": "Standard",
+      "size": "M"
+    },
+    {
+      "image": "file:///android_asset/img/clothsImg/polo_tshirt.png",
+      "title": "Polo T-Shirt",
+      "subtitle": "Best for Sport",
+      "price": "999",
+      "material": "Cotton 100%",
+      "quality": "Best",
+      "size": "S"
+    },
+    {
+      "image": "file:///android_asset/img/clothsImg/eye_bogle.png",
+      "title": "Eye Bogle",
+      "subtitle": "Professional Wear ",
+      "price": "1299",
+      "material": "Cotton 100%",
+      "quality": "Best",
+      "size": "L"
+    },
+    {
+      "image": "file:///android_asset/img/clothsImg/street_mash.png",
+      "title": "Street mash",
+      "subtitle": "Be different",
+      "price": "749",
+      "material": "Cotton 100%",
+      "quality": "Good",
+      "size": "XXL"
+    },
+    {
+      "image": "file:///android_asset/img/clothsImg/rain_coat.png",
+      "title": "Rain Coat",
+      "subtitle": "Water Proof",
+      "price": "2099",
+      "material": "Polyester 100%",
+      "quality": "Best",
+      "size": "M"
+    }
+  ]
+}

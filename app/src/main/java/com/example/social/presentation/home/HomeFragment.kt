@@ -24,9 +24,15 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.productListBtn.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToProductsListFragment()
+        binding.productCategoriesBtn.setOnClickListener {
+            val action = HomeFragmentDirections.actionHomeFragmentToProductCategoriesFragment()
             findNavController().navigate(action)
         }
+
+        binding.productListBtn.setOnClickListener {
+            val action = HomeFragmentDirections.actionHomeFragmentToProductListFragment()
+            findNavController().navigate(action)
+        }
+
     }
 }

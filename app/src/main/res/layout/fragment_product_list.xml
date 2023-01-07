@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context=".presentation.products.ProductsListFragment">
+    android:fitsSystemWindows="true">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -21,12 +20,20 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_baseline_arrow_back_ios_new_24" />
 
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginRight="6dp"
+                app:shapeAppearance="@style/roundedToolBarImageView"
+                android:src="@drawable/cloths"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/title_background"
-                android:text="Products"
+                android:text="Cloths"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
@@ -46,12 +53,10 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/products_recycler_view"
+            android:id="@+id/product_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:clipToPadding="false"
-            android:paddingBottom="50dp"
-            tools:listitem="@layout/products_card_layout" />
+            tools:listitem="@layout/product_s_item_card_layout"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

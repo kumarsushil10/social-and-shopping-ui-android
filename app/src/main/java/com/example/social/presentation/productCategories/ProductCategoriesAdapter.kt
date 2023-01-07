@@ -1,4 +1,4 @@
-package com.example.social.presentation.products
+package com.example.social.presentation.productCategories
 
 import android.view.LayoutInflater
 import android.view.View
@@ -10,12 +10,12 @@ import coil.load
 import com.example.social.R
 import com.example.social.data.models.Product
 
-class ProductsListAdapter(private val products: List<Product>) :
-    RecyclerView.Adapter<ProductsListAdapter.ViewHolder>() {
+class ProductCategoriesAdapter(private val products: List<Product>) :
+    RecyclerView.Adapter<ProductCategoriesAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.products_card_layout, parent, false)
+            .inflate(R.layout.products_categories_card_layout, parent, false)
         return ViewHolder(view)
     }
 
