@@ -1,4 +1,4 @@
-package com.example.social.domain
+package com.example.social.utils
 
 import android.content.Context
 import java.io.IOException
