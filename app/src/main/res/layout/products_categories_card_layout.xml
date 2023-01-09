@@ -3,14 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="252dp"
-    android:layout_margin="4dp">
+    android:layout_marginTop="16dp"
+    android:layout_marginHorizontal="4dp">
 
     <TextView
         android:id="@+id/product_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Clothes"
-        android:textColor="@color/black"
+        android:textFontWeight="500"
         android:layout_marginLeft="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="232dp"
         android:src="@drawable/cloths"
-        android:scaleType="fitXY"
+        android:scaleType="centerCrop"
         app:shapeAppearance="@style/roundedImageView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

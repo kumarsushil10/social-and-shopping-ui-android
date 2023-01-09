@@ -8,11 +8,14 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
+import com.example.social.R
 import com.example.social.databinding.FragmentProductListBinding
+import com.google.android.material.bottomsheet.BottomSheetDialog
 
 class ProductListFragment: Fragment() {
     private lateinit var binding: FragmentProductListBinding
     private val viewModel:ProductListViewModel by viewModels()
+    private lateinit var  mAdapter :ProductListAdapter
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -26,8 +29,18 @@ class ProductListFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
         lifecycleScope.launchWhenCreated {
             var productList = viewModel.getJson(requireContext())
-            binding.productRecyclerView.layoutManager = GridLayoutManager(requireContext(),2)
-            binding.productRecyclerView.adapter = productList?.cloths?.let { ProductListAdapter(it) }
+            if (productList != null) {
+                mAdapter = ProductListAdapter(productList.cloths)
+            }
+            binding.productRecyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
+            binding.productRecyclerView.adapter = mAdapter
+
+            mAdapter.onItemClick = {
+                val dialog = BottomSheetDialog(requireContext())
+                val view = layoutInflater.inflate(R.layout.product_s_item_bottom_sheet_layout, null)
+                dialog.setContentView(view)
+                dialog.show()
+            }
         }
     }
 }

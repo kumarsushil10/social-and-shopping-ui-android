@@ -56,6 +56,9 @@
             android:id="@+id/product_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingHorizontal="12dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="2"
             tools:listitem="@layout/product_s_item_card_layout"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

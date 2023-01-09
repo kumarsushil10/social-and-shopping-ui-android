@@ -13,6 +13,8 @@ import com.example.social.data.models.Cloth
 class ProductListAdapter(private val products: List<Cloth>) :
     RecyclerView.Adapter<ProductListAdapter.ProductViewHolder>() {
 
+    var onItemClick : ((Cloth)-> Unit)? = null
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.product_s_item_card_layout, parent, false)
@@ -26,6 +28,10 @@ class ProductListAdapter(private val products: List<Cloth>) :
         holder.subtitle.text = product.subtitle
         holder.price.text = product.price
         holder.image.load(product.image)
+
+        holder.itemView.setOnClickListener(){
+            onItemClick?.invoke(product)
+        }
     }
 
     override fun getItemCount(): Int {

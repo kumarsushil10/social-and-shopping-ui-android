@@ -27,7 +27,7 @@
                 android:layout_gravity="center"
                 android:background="@drawable/title_background"
                 android:text="Products"
-                android:textColor="@color/black"
+                android:textFontWeight="500"
                 android:textSize="24sp" />
 
             <ImageView
@@ -49,8 +49,9 @@
             android:id="@+id/products_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:clipToPadding="false"
-            android:paddingBottom="50dp"
+            android:paddingHorizontal="12dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="2"
             tools:listitem="@layout/products_categories_card_layout" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
