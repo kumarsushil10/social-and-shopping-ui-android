@@ -1,5 +1,6 @@
 package com.example.social.presentation.productList
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,10 +11,15 @@ import coil.load
 import com.example.social.R
 import com.example.social.data.models.Cloth
 
-class ProductListAdapter(private val products: List<Cloth>) :
+class ProductListAdapter(private var products: List<Cloth>) :
     RecyclerView.Adapter<ProductListAdapter.ProductViewHolder>() {
 
     var onItemClick : ((Cloth)-> Unit)? = null
+
+    fun loadData(newProducts: List<Cloth>) {
+        products = newProducts
+        notifyDataSetChanged()
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
         val view = LayoutInflater.from(parent.context)

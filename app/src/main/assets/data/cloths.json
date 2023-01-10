@@ -1,5 +1,4 @@
-{
-  "cloths": [
+ [
     {
       "image": "file:///android_asset/img/clothsImg/kotty_trouser.png",
       "title": "Kitty-Trouser",
@@ -55,4 +54,3 @@
       "size": "M"
     }
   ]
-}

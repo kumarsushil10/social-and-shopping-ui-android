@@ -58,5 +58,8 @@ dependencies {
 
     //Coil
     implementation "io.coil-kt:coil:$coil_version"
-    implementation("io.coil-kt:coil-svg:$coil_version")
+    implementation "io.coil-kt:coil-svg:$coil_version"
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.9.0'
 }
