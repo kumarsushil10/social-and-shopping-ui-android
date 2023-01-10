@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@android:color/transparent"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
 
     <View
         android:id="@+id/view"
@@ -12,11 +11,10 @@
         android:layout_height="4dp"
         android:layout_marginVertical="10dp"
         android:background="@drawable/btm_shet_view_corner"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -47,7 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
-            android:text="Kotty-Trouser"
+            android:fontFamily="@font/plus_jakarta_sans_regular"
+            android:text="@string/kotty_trouser"
             android:textSize="36sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/image" />
@@ -57,7 +56,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
-            android:text="For Women"
+            android:fontFamily="@font/plus_jakarta_sans_regular"
+            android:text="@string/for_women"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/title" />
@@ -68,8 +68,10 @@
             android:layout_marginHorizontal="24dp"
             android:layout_marginBottom="10dp"
             android:orientation="horizontal"
-            app:layout_constraintStart_toStartOf="parent"
+            android:baselineAligned="false"
+
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/subtitle">
 
             <LinearLayout
@@ -87,13 +89,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Material : " />
+                        android:fontFamily="@font/plus_jakarta_sans_regular"
+                        android:text="@string/material"
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/material"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cotton 100%" />
+                        android:fontFamily="@font/plus_jakarta_sans_regular"
+                        android:text="@string/cotton_100"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -104,13 +110,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Quality : " />
+                        android:fontFamily="@font/plus_jakarta_sans_regular"
+                        android:text="@string/quality"
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/quality"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Best" />
+                        android:fontFamily="@font/plus_jakarta_sans_regular"
+                        android:text="@string/best"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -121,13 +131,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Size : " />
+                        android:fontFamily="@font/plus_jakarta_sans_regular"
+                        android:text="@string/size"
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/size"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="XL" />
+                        android:fontFamily="@font/plus_jakarta_sans_regular"
+                        android:text="@string/xl"
+                        android:textSize="14sp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -142,6 +156,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:contentDescription="@string/kart"
                     android:src="@drawable/kart" />
 
                 <TextView
@@ -149,7 +164,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:text="$ 7600" />
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/dm_sans_regular"
+                    android:text="@string/_7600"
+                    android:textSize="16sp" />
             </LinearLayout>
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

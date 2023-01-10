@@ -21,9 +21,9 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kotty-Trouser"
-        android:textColor="@color/black"
-        android:textSize="20sp"
+        android:text="@string/kotty_trouser"
+        android:fontFamily="@font/plus_jakarta_sans_regular"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image" />
 
@@ -31,15 +31,19 @@
         android:id="@+id/subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="For Women"
+        android:text="@string/for_women"
+        android:textSize="12sp"
+        android:fontFamily="@font/plus_jakarta_sans_regular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <TextView
         android:id="@+id/price"
+        android:fontFamily="@font/dm_sans_regular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="$ 1243"
+        android:text="@string/_1243"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subtitle" />

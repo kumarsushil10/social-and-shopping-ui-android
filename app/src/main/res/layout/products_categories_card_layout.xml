@@ -10,9 +10,10 @@
         android:id="@+id/product_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Clothes"
+        android:text="@string/clothes"
         android:textFontWeight="500"
-        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/plus_jakarta_sans_regular"
+        android:layout_marginStart="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

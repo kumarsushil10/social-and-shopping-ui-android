@@ -25,8 +25,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:fontFamily="@font/plus_jakarta_sans_regular"
                 android:background="@drawable/title_background"
-                android:text="Products"
+                android:text="@string/products"
                 android:textFontWeight="500"
                 android:textSize="24sp" />
 

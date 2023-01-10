@@ -2,4 +2,17 @@
     <string name="app_name">Social</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="for_women">For Women</string>
+    <string name="_1243">$ 1243</string>
+    <string name="kotty_trouser">Kotty-Trouser</string>
+    <string name="clothes">Clothes</string>
+    <string name="products">Products</string>
+    <string name="material">Material :</string>
+    <string name="_7600">$ 7600</string>
+    <string name="xl">XL</string>
+    <string name="size">Size :</string>
+    <string name="best">Best</string>
+    <string name="quality">Quality :</string>
+    <string name="cotton_100">Cotton 100%</string>
+    <string name="kart">kart</string>
 </resources>
