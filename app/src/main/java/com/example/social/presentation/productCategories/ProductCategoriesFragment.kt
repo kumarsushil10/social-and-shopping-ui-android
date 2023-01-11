@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.social.databinding.FragmentProductListBinding
 import com.example.social.databinding.FragmentProductsCategoriesListBinding
@@ -47,7 +48,8 @@ class ProductCategoriesFragment : Fragment() {
         viewModel.productCategories.observe(requireActivity()) { productCategories ->
             mAdapter.loadData(productCategories)
             mAdapter.onItemClick = {
-
+                val action = ProductCategoriesFragmentDirections.actionProductCategoriesFragmentToProductListFragment(it)
+                findNavController().navigate(action)
             }
         }
     }

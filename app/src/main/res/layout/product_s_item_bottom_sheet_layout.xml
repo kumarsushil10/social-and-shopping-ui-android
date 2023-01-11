@@ -47,11 +47,13 @@
             android:layout_marginLeft="24dp"
             android:fontFamily="@font/plus_jakarta_sans_regular"
             android:text="@string/kotty_trouser"
+            android:textColor="@color/black"
             android:textSize="36sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/image" />
 
         <TextView
+            android:textColor="@color/black_40"
             android:id="@+id/subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -87,6 +89,7 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/black_40"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/plus_jakarta_sans_regular"
@@ -94,6 +97,7 @@
                         android:textSize="14sp" />
 
                     <TextView
+                        android:textColor="@color/black"
                         android:id="@+id/material"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -108,6 +112,7 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/black_40"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/plus_jakarta_sans_regular"
@@ -115,6 +120,7 @@
                         android:textSize="14sp" />
 
                     <TextView
+                        android:textColor="@color/black"
                         android:id="@+id/quality"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -129,6 +135,7 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/black_40"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/plus_jakarta_sans_regular"
@@ -136,6 +143,7 @@
                         android:textSize="14sp" />
 
                     <TextView
+                        android:textColor="@color/black"
                         android:id="@+id/size"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

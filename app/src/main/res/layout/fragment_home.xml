@@ -13,9 +13,9 @@
         android:text="Product Categories"/>
 
     <Button
-        android:id="@+id/product_list_btn"
+        android:id="@+id/account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Products List"/>
+        android:text="Account"/>
 
 </LinearLayout>

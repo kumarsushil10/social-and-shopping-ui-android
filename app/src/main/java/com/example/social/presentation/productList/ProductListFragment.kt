@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.GridLayoutManager
+import coil.load
 import com.example.social.databinding.FragmentProductListBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
@@ -17,7 +19,7 @@ class ProductListFragment : Fragment() {
     private lateinit var binding: FragmentProductListBinding
     private val viewModel: ProductListViewModel by viewModels()
     private var mAdapter: ProductListAdapter = ProductListAdapter(ArrayList())
-
+    private val args:ProductListFragmentArgs by navArgs()
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -29,6 +31,9 @@ class ProductListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        binding.productIcon.load(args.products.productImage)
+        binding.productTitle.text = args.products.productName
 
         binding.productRecyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
         binding.productRecyclerView.adapter = mAdapter
