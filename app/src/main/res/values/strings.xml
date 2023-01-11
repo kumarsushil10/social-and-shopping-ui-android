@@ -15,4 +15,17 @@
     <string name="quality">Quality :</string>
     <string name="cotton_100">Cotton 100%</string>
     <string name="kart">kart</string>
+    <string name="order_placed">Order Placed</string>
+    <string name="your_order_id">Your order #23970320 has been placed successfully</string>
+    <string name="ok">OK</string>
+    <string name="id">Id</string>
+    <string name="date">Date</string>
+    <string name="_3869274025">#3869274025</string>
+    <string name="_10_01_2023">10-01-2023</string>
+    <string name="total">Total</string>
+    <string name="paid">Paid</string>
+    <string name="_7500">$ 7500</string>
+    <string name="upi">UPI</string>
+    <string name="barcode">barcode</string>
+    <string name="cart">cart</string>
 </resources>

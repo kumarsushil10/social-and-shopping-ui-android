@@ -10,7 +10,7 @@
         android:layout_width="32dp"
         android:layout_height="4dp"
         android:layout_marginVertical="10dp"
-        android:background="@drawable/btm_shet_view_corner"
+        android:background="@drawable/bottom_sheet_view_corner"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

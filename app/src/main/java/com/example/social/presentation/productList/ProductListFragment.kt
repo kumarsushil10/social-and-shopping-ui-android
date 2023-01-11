@@ -44,7 +44,7 @@ class ProductListFragment : Fragment() {
             mAdapter.loadData(products)
 
             mAdapter.onItemClick = {
-                val bottomSheetFragment: BottomSheetDialogFragment = BottomSheetFragment(it)
+                val bottomSheetFragment: BottomSheetDialogFragment = ProductDetailsBottomSheetFragment(it)
                 bottomSheetFragment.show(requireFragmentManager(), bottomSheetFragment.tag)
                 Log.i(TAG, "on item Clicked:  ${it.title}")
             }
