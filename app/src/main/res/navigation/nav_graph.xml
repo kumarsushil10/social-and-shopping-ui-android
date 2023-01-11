@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_homeFragment_to_productCategoriesFragment"
             app:destination="@id/productCategoriesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
     </fragment>
 
     <fragment
@@ -35,5 +38,11 @@
             android:name="products"
             app:argType="com.example.social.data.models.Product"/>
     </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.social.presentation.account.AccountFragment"
+        android:label="AccountFragment"
+        tools:layout="@layout/fragment_account"
+        />
 
 </navigation>

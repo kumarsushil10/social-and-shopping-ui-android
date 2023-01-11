@@ -30,8 +30,8 @@ class HomeFragment : Fragment() {
         }
 
         binding.account.setOnClickListener {
-//            val action = HomeFragmentDirections.actionHomeFragmentToProductListFragment()
-//            findNavController().navigate(action)
+            val action = HomeFragmentDirections.actionHomeFragmentToAccountFragment()
+            findNavController().navigate(action)
         }
 
     }

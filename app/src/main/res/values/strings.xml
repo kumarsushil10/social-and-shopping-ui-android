@@ -28,4 +28,27 @@
     <string name="upi">UPI</string>
     <string name="barcode">barcode</string>
     <string name="cart">cart</string>
+    <string name="verma_moni">\@verma.moni</string>
+    <string name="menu">menu</string>
+    <string name="settings">settings</string>
+    <string name="moni_verma">Moni Verma</string>
+    <string name="_78">78</string>
+    <string name="_12k">12K</string>
+    <string name="_32">32</string>
+    <string name="story">Story</string>
+    <string name="connections">Connections</string>
+    <string name="shopping">Shopping</string>
+    <string name="achievements">Achievements</string>
+    <string name="you_have_earned">You have earned 15% of achivements</string>
+    <string name="orders">Orders</string>
+    <string name="posts">Posts</string>
+    <string name="tagged">Tagged</string>
+    <string name="saved">Saved</string>
+    <string name="_23541683">#23541683</string>
+    <string name="in_process">In Process</string>
+    <string name="delivery_by">Delivery by: 11-01-2023</string>
+    <string name="_2">2</string>
+    <string name="track">Track</string>
+    <string name="delivered">Delivered</string>
+    <string name="detail">Detail</string>
 </resources>
