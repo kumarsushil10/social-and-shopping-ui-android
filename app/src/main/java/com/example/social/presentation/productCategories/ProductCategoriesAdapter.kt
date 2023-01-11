@@ -10,8 +10,15 @@ import coil.load
 import com.example.social.R
 import com.example.social.data.models.Product
 
-class ProductCategoriesAdapter(private val products: List<Product>) :
+class ProductCategoriesAdapter(private var productCategories: List<Product>) :
     RecyclerView.Adapter<ProductCategoriesAdapter.ViewHolder>() {
+
+    var onItemClick : ((Product)-> Unit)? = null
+
+    fun loadData(newProductCategories: List<Product>) {
+        productCategories = newProductCategories
+        notifyDataSetChanged()
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
@@ -20,14 +27,17 @@ class ProductCategoriesAdapter(private val products: List<Product>) :
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val product = products[position]
+        val product = productCategories[position]
         holder.title.text = product.productName
         holder.imageView.load(product.productImage)
-//        holder.imageView.setImageResource(product.productImage)
+
+        holder.itemView.setOnClickListener(){
+            onItemClick?.invoke(product)
+        }
     }
 
     override fun getItemCount(): Int {
-        return products.size
+        return productCategories.size
     }
 
     class ViewHolder(ItemView: View) : RecyclerView.ViewHolder(ItemView) {

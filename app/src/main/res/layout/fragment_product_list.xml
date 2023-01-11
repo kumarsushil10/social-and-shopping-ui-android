@@ -24,11 +24,13 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
+                android:id="@+id/product_icon"
                 android:scaleType="fitXY"
                 android:layout_marginRight="6dp"
                 app:shapeAppearance="@style/roundedToolBarImageView"
                 android:src="@drawable/cloths"/>
             <TextView
+                android:id="@+id/product_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

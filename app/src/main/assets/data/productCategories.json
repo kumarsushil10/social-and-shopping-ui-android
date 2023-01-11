@@ -1,5 +1,4 @@
-{
-  "products": [
+[
     {
       "productName": "Cloths",
       "productImage": "file:///android_asset/img/productsImg/cloths.png"
@@ -25,4 +24,3 @@
       "productImage": "file:///android_asset/img/productsImg/container.png"
     }
   ]
-}
