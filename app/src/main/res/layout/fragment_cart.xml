@@ -57,82 +57,86 @@
                 android:id="@+id/recyclerview_cart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:itemCount="3"
-                android:clipToPadding="false"
                 android:layout_marginHorizontal="20dp"
+                android:clipToPadding="false"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:listitem="@layout/cart_item_card_layout"/>
+                tools:itemCount="3"
+                tools:listitem="@layout/cart_item_card_layout" />
+
             <View
                 android:id="@+id/view"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
-                android:background="@color/black_40"
-                android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="20dp"
-                app:layout_constraintTop_toBottomOf="@id/recyclerview_cart"
+                android:layout_marginTop="20dp"
+                android:background="@color/black_40"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/recyclerview_cart" />
+
             <include
+                android:id="@+id/offer_card"
                 layout="@layout/cart_offer_card_layout"
-                android:id="@+id/offer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="20dp"
-                app:layout_constraintTop_toBottomOf="@id/view"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/view" />
+
             <View
                 android:id="@+id/view2"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
+                android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="20dp"
                 android:background="@color/black_40"
-                android:layout_marginHorizontal="20dp"
-                app:layout_constraintTop_toBottomOf="@id/offer"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/offer_card" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/dm_sans_regular"
                 android:text="Total:"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@id/view2"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view2" />
 
             <TextView
                 android:id="@+id/amount_total"
-                android:layout_marginRight="20dp"
                 android:layout_width="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
                 android:fontFamily="@font/dm_sans_regular"
-                android:text="$ 7000"
+                android:text="@string/_7000"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@id/view2"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view2" />
+
             <Button
-                android:id="@+id/checkout_buttom"
+                android:id="@+id/checkout_button"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Checkout"
-                android:layout_marginTop="40dp"
                 android:layout_marginHorizontal="24dp"
-                android:textSize="20sp"
+                android:layout_marginTop="40dp"
                 android:backgroundTint="#FFD655"
-                app:layout_constraintTop_toBottomOf="@id/amount_total"
+                android:text="@string/checkout"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/amount_total" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
