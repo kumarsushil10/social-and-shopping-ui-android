@@ -1,4 +1,4 @@
-package com.example.social.presentation.cart
+package com.example.social.presentation.shoping.cart
 
 import android.os.Bundle
 import android.view.LayoutInflater

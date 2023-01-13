@@ -1,4 +1,4 @@
-package com.example.social.presentation.productCategories
+package com.example.social.presentation.shoping.productCategories
 
 import android.content.Context
 import androidx.lifecycle.LiveData
@@ -16,7 +16,7 @@ class ProductCategoriesViewModel():ViewModel(){
     val productCategories: LiveData<List<Product>> = _productCategories
 
     fun getJson(context: Context) {
-        val jsonString = Utils.readJson(context, "data/productCategories.json")
+        val jsonString = Utils.readJson(context, "data/shopping/productCategories.json")
         val moshi: Moshi = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()
         val listType = Types.newParameterizedType(List::class.java, Product::class.java)
         val adapter: JsonAdapter<List<Product>> = moshi.adapter(listType)

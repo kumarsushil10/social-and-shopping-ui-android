@@ -1,4 +1,4 @@
-package com.example.social.presentation.productCategories
+package com.example.social.presentation.shoping.productCategories
 
 import android.os.Bundle
 import android.util.Log
@@ -12,9 +12,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.social.databinding.FragmentProductListBinding
 import com.example.social.databinding.FragmentProductsCategoriesListBinding
-import com.example.social.presentation.productList.ProductDetailsBottomSheetFragment
-import com.example.social.presentation.productList.ProductListAdapter
-import com.example.social.presentation.productList.ProductListViewModel
+import com.example.social.presentation.shoping.productList.ProductDetailsBottomSheetFragment
+import com.example.social.presentation.shoping.productList.ProductListAdapter
+import com.example.social.presentation.shoping.productList.ProductListViewModel
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 class ProductCategoriesFragment : Fragment() {
