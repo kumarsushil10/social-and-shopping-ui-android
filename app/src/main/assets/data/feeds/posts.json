@@ -1,0 +1,96 @@
+[
+  {
+    "userImage": "file:///android_asset/img/feedsImg/Narie.png",
+    "userName": "Narie",
+    "post": [
+      "file:///android_asset/img/feedsImg/glass frame.png"
+    ],
+    "description": "",
+    "spanCount": 1
+  },
+  {
+    "userImage": "file:///android_asset/img/feedsImg/Hendawi.png",
+    "userName": "Hendawi",
+    "post": [
+      "file:///android_asset/img/feedsImg/hills.png"
+    ],
+    "description": "Nature is my medicine",
+    "spanCount": 2
+  },
+  {
+    "userImage": "file:///android_asset/img/feedsImg/Nina Marineko.png",
+    "userName": "Nina Marineko",
+    "post": [
+      "file:///android_asset/img/feedsImg/laptop.png",
+      "file:///android_asset/img/feedsImg/mobile.png",
+      "file:///android_asset/img/feedsImg/sphere.png"
+    ],
+    "description": "Technology is best when it brings people together",
+    "spanCount": 3
+  },
+  {
+    "userImage": "file:///android_asset/img/feedsImg/Nina Marineko.png",
+    "userName": "Nina Marineko",
+    "post": [
+      "file:///android_asset/img/feedsImg/girl with lemon.png"
+    ],
+    "description": "When life give you lemons, Make it ..",
+    "spanCount": 2
+  },
+  {
+    "userImage": "file:///android_asset/img/feedsImg/Narie.png",
+    "userName": "Narie",
+    "post": [
+      "file:///android_asset/img/feedsImg/cycle.png"
+    ],
+    "description": "",
+    "spanCount": 1
+  },
+  {
+    "userImage": "file:///android_asset/img/feedsImg/Narie.png",
+    "userName": "Narie",
+    "post": [
+      "file:///android_asset/img/feedsImg/glass frame.png"
+    ],
+    "description": "",
+    "spanCount": 1
+  },
+  {
+    "userImage": "file:///android_asset/img/feedsImg/Hendawi.png",
+    "userName": "Hendawi",
+    "post": [
+      "file:///android_asset/img/feedsImg/hills.png"
+    ],
+    "description": "Nature is my medicine",
+    "spanCount": 2
+  },
+  {
+    "userImage": "file:///android_asset/img/feedsImg/Nina Marineko.png",
+    "userName": "Nina Marineko",
+    "post": [
+      "file:///android_asset/img/feedsImg/laptop.png",
+      "file:///android_asset/img/feedsImg/mobile.png",
+      "file:///android_asset/img/feedsImg/sphere.png"
+    ],
+    "description": "Technology is best when it brings people together",
+    "spanCount": 3
+  },
+  {
+    "userImage": "file:///android_asset/img/feedsImg/Nina Marineko.png",
+    "userName": "Nina Marineko",
+    "post": [
+      "file:///android_asset/img/feedsImg/girl with lemon.png"
+    ],
+    "description": "When life give you lemons, Make it ..",
+    "spanCount": 2
+  },
+  {
+    "userImage": "file:///android_asset/img/feedsImg/Narie.png",
+    "userName": "Narie",
+    "post": [
+      "file:///android_asset/img/feedsImg/cycle.png"
+    ],
+    "description": "",
+    "spanCount": 1
+  }
+]

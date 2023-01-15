@@ -17,4 +17,10 @@
     <style name="roundedToolBarImageView">
         <item name="cornerSize">25%</item>
     </style>
+    <style name="roundedFeedsImageView">
+        <item name="cornerSize">10%</item>
+    </style>
+    <style name="roundedFeedsAvatarImageView">
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>

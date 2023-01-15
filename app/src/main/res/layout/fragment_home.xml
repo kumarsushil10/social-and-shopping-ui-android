@@ -22,5 +22,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Account"/>
+    <Button
+        android:id="@+id/feeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feeds"/>
 
 </LinearLayout>

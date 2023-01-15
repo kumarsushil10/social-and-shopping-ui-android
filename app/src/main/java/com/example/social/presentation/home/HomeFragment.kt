@@ -37,6 +37,10 @@ class HomeFragment : Fragment() {
             val action = HomeFragmentDirections.actionHomeFragmentToCartFragment()
             findNavController().navigate(action)
         }
+        binding.feeds.setOnClickListener{
+            val action = HomeFragmentDirections.actionHomeFragmentToFeedsFragment()
+            findNavController().navigate(action)
+        }
 
     }
 }

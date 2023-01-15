@@ -21,6 +21,9 @@
         <action
             android:id="@+id/action_homeFragment_to_cartFragment"
             app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_feedsFragment"
+            app:destination="@id/feedsFragment" />
     </fragment>
 
     <fragment
@@ -53,6 +56,11 @@
         android:name="com.example.social.presentation.shoping.cart.CartFragment"
         android:label="CartFragment"
         tools:layout="@layout/fragment_cart"/>
+    <fragment
+        android:id="@+id/feedsFragment"
+        android:name="com.example.social.presentation.feeds.FeedsFragment"
+        android:label="FeedsFragment"
+        tools:layout="@layout/fragment_feeds"/>
 
 
 </navigation>
