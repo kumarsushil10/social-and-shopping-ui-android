@@ -17,11 +17,15 @@
         <action
             android:id="@+id/action_homeFragment_to_accountFragment"
             app:destination="@id/accountFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/productCategoriesFragment"
-        android:name="com.example.social.presentation.productCategories.ProductCategoriesFragment"
+        android:name="com.example.social.presentation.shoping.productCategories.ProductCategoriesFragment"
         android:label="fragment_product_categories"
         tools:layout="@layout/fragment_products_categories_list" >
         <action
@@ -31,7 +35,7 @@
 
     <fragment
         android:id="@+id/productListFragment"
-        android:name="com.example.social.presentation.productList.ProductListFragment"
+        android:name="com.example.social.presentation.shoping.productList.ProductListFragment"
         android:label="ProductListFragment"
         tools:layout="@layout/fragment_product_list">
         <argument
@@ -44,5 +48,11 @@
         android:label="AccountFragment"
         tools:layout="@layout/fragment_account"
         />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.social.presentation.shoping.cart.CartFragment"
+        android:label="CartFragment"
+        tools:layout="@layout/fragment_cart"/>
+
 
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.social.presentation.productCategories
+package com.example.social.presentation.shoping.productCategories
 
 import android.view.LayoutInflater
 import android.view.View

@@ -29,8 +29,13 @@ class HomeFragment : Fragment() {
             findNavController().navigate(action)
         }
 
+<<<<<<< HEAD
         binding.account.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToAccountFragment()
+=======
+        binding.cart.setOnClickListener {
+            val action = HomeFragmentDirections.actionHomeFragmentToCartFragment()
+>>>>>>> feature-shoping
             findNavController().navigate(action)
         }
 

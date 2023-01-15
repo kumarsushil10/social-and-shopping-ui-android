@@ -51,4 +51,8 @@
     <string name="track">Track</string>
     <string name="delivered">Delivered</string>
     <string name="detail">Detail</string>
+
+    <string name="checkout">Checkout</string>
+    <string name="_7000">$ 7000</string>
+
 </resources>

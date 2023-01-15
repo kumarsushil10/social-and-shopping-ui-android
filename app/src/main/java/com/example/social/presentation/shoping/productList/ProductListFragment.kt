@@ -1,4 +1,4 @@
-package com.example.social.presentation.productList
+package com.example.social.presentation.shoping.productList
 
 import android.os.Bundle
 import android.util.Log
