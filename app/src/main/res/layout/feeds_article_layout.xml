@@ -49,7 +49,7 @@
                 app:layout_constraintStart_toEndOf="@id/image"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:shapeAppearance="@style/roundedFeedsImageView" />
+                app:shapeAppearance="@style/roundedFeedsImageView20" />
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/image3"
@@ -65,7 +65,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/image2"
                 app:layout_constraintBottom_toBottomOf="@id/image"
-                app:shapeAppearance="@style/roundedFeedsImageView" />
+                app:shapeAppearance="@style/roundedFeedsImageView20" />
 
 
 
