@@ -13,7 +13,7 @@ class FeedsFragment:Fragment() {
 
     private lateinit var binding :FragmentFeedsBinding
     private val viewModel: FeedsViewModel by viewModels()
-    private var mAdapter: FeedsAdapter = FeedsAdapter(ArrayList())
+    private var mAdapter: FeedsAdapter = FeedsAdapter()
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -42,8 +42,8 @@ class FeedsFragment:Fragment() {
 
     }
     private fun observeFromViewModal() {
-        viewModel.feeds.observe(requireActivity()) { feed ->
-            mAdapter.loadData(feed)
+        viewModel.feeds.observe(requireActivity()) {
+            mAdapter.submitList(it)
         }
     }
 }
