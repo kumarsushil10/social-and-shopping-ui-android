@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_homeFragment_to_feedsFragment"
             app:destination="@id/feedsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
 
     <fragment
@@ -61,6 +64,10 @@
         android:name="com.example.social.presentation.feeds.FeedsFragment"
         android:label="FeedsFragment"
         tools:layout="@layout/fragment_feeds"/>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.social.presentation.home.MainFragment"
+        android:label="MainFragment" />
 
 
 </navigation>

@@ -27,5 +27,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Feeds"/>
+    <Button
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main"/>
+
+
 
 </LinearLayout>

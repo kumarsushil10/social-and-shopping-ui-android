@@ -20,6 +20,9 @@
     <style name="roundedFeedsImageView">
         <item name="cornerSize">10%</item>
     </style>
+    <style name="roundedCorner10">
+        <item name="cornerSize">10%</item>
+    </style>
     <style name="roundedFeedsImageView20">
         <item name="cornerSize">20%</item>
     </style>

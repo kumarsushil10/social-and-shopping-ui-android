@@ -1,7 +1,7 @@
 [
   {
     "key": "narie",
-    "userImage": "file:///android_asset/img/feedsImg/Narie.png",
+    "userImage": "file:///android_asset/img/avatarImg/Narie.png",
     "userName": "Narie",
     "post": [
       "file:///android_asset/img/feedsImg/glass frame.png"
@@ -11,7 +11,7 @@
   },
   {
     "key": "hendawi",
-    "userImage": "file:///android_asset/img/feedsImg/Hendawi.png",
+    "userImage": "file:///android_asset/img/avatarImg/Hendawi.png",
     "userName": "Hendawi",
     "post": [
       "file:///android_asset/img/feedsImg/hills.png"
@@ -21,7 +21,7 @@
   },
   {
     "key": "nina",
-    "userImage": "file:///android_asset/img/feedsImg/Nina Marineko.png",
+    "userImage": "file:///android_asset/img/avatarImg/Nina Marineko.png",
     "userName": "Nina Marineko",
     "post": [
       "file:///android_asset/img/feedsImg/laptop.png",
@@ -33,7 +33,7 @@
   },
   {
     "key": "nin",
-    "userImage": "file:///android_asset/img/feedsImg/Nina Marineko.png",
+    "userImage": "file:///android_asset/img/avatarImg/Nina Marineko.png",
     "userName": "Nina Marineko",
     "post": [
       "file:///android_asset/img/feedsImg/girl with lemon.png"
@@ -43,7 +43,7 @@
   },
   {
     "key": "nari",
-    "userImage": "file:///android_asset/img/feedsImg/Narie.png",
+    "userImage": "file:///android_asset/img/avatarImg/Narie.png",
     "userName": "Narie",
     "post": [
       "file:///android_asset/img/feedsImg/cycle.png"
@@ -53,7 +53,7 @@
   },
   {
     "key": "nar",
-    "userImage": "file:///android_asset/img/feedsImg/Narie.png",
+    "userImage": "file:///android_asset/img/avatarImg/Narie.png",
     "userName": "Narie",
     "post": [
       "file:///android_asset/img/feedsImg/glass frame.png"
@@ -63,7 +63,7 @@
   },
   {
     "key": "hendaw",
-    "userImage": "file:///android_asset/img/feedsImg/Hendawi.png",
+    "userImage": "file:///android_asset/img/avatarImg/Hendawi.png",
     "userName": "Hendawi",
     "post": [
       "file:///android_asset/img/feedsImg/hills.png"
@@ -73,7 +73,7 @@
   },
   {
     "key": "ni",
-    "userImage": "file:///android_asset/img/feedsImg/Nina Marineko.png",
+    "userImage": "file:///android_asset/img/avatarImg/Nina Marineko.png",
     "userName": "Nina Marineko",
     "post": [
       "file:///android_asset/img/feedsImg/laptop.png",
@@ -85,7 +85,7 @@
   },
   {
     "key": "na",
-    "userImage": "file:///android_asset/img/feedsImg/Nina Marineko.png",
+    "userImage": "file:///android_asset/img/avatarImg/Nina Marineko.png",
     "userName": "Nina Marineko",
     "post": [
       "file:///android_asset/img/feedsImg/girl with lemon.png"
@@ -95,7 +95,7 @@
   },
   {
     "key": "nara",
-    "userImage": "file:///android_asset/img/feedsImg/Narie.png",
+    "userImage": "file:///android_asset/img/avatarImg/Narie.png",
     "userName": "Narie",
     "post": [
       "file:///android_asset/img/feedsImg/cycle.png"

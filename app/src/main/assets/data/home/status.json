@@ -1,0 +1,37 @@
+[
+  {
+    "key": "hendawi",
+    "userName": "Hendawi",
+    "userImage": "file:///android_asset/img/avatarImg/Hendawi.png",
+    "statusImage": "file:///android_asset/img/statusImg/fish.png",
+    "cornerColor": "#E31704"
+  },
+  {
+    "key": "nina",
+    "userName": "Nina",
+    "userImage": "file:///android_asset/img/avatarImg/Nina Marineko.png",
+    "statusImage": "file:///android_asset/img/statusImg/birthday.png",
+    "cornerColor": "#9248FF"
+  },
+  {
+    "key": "fanna",
+    "userName": "Fanna",
+    "userImage": "file:///android_asset/img/avatarImg/fenna.png",
+    "statusImage": "file:///android_asset/img/statusImg/candy.png",
+    "cornerColor": "#FF3EC6"
+  },
+  {
+    "key": "narie",
+    "userName": "Narie",
+    "userImage": "file:///android_asset/img/avatarImg/Narie.png",
+    "statusImage": "file:///android_asset/img/statusImg/human.png",
+    "cornerColor": "#974F41"
+  },
+  {
+    "key": "nin",
+    "userName": "Nina",
+    "userImage": "file:///android_asset/img/avatarImg/Nina Marineko.png",
+    "statusImage": "file:///android_asset/img/statusImg/fest.png",
+    "cornerColor": "#0097E8"
+  }
+]
