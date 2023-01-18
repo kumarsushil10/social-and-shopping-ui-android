@@ -2,6 +2,7 @@ package com.example.social.presentation.home
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.graphics.toColorInt
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
@@ -17,6 +18,7 @@ class StatusAdapter:ListAdapter<StatusModel,RecyclerView.ViewHolder>(StatusModel
             binding.bModel = status
             binding.userImage.load(status.userImage)
             binding.statusImage.load(status.statusImage)
+            binding.card.setCardBackgroundColor(status.cornerColor.toColorInt())
         }
     }
 

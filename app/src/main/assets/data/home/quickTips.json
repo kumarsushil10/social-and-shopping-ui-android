@@ -1,0 +1,20 @@
+[
+  {
+    "key": "post",
+    "title": "Create Post Directly",
+    "icon": "file:///android_asset/img/quickTipsImg/edit.png",
+    "backgroundColor": "#43FFB0"
+  },
+  {
+    "key": "feeds",
+    "title": "Customize feeds",
+    "icon": "file:///android_asset/img/quickTipsImg/filter.png",
+    "backgroundColor": "#FFD481"
+  },
+  {
+    "key": "reels",
+    "title": "trending reels",
+    "icon": "file:///android_asset/img/quickTipsImg/videooctagon.png",
+    "backgroundColor": "#CF81FF"
+  }
+]

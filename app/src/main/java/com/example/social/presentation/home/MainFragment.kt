@@ -14,6 +14,7 @@ class MainFragment:Fragment() {
     private lateinit var binding:FragmentMainBinding
     private val viewModel: HomeViewModel by viewModels()
     private var statusAdapter: StatusAdapter = StatusAdapter()
+    private var quickTipsAdapter:QuickTipsAdapter = QuickTipsAdapter()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -32,12 +33,23 @@ class MainFragment:Fragment() {
         binding.statusRecyclerView.adapter = statusAdapter
 
 
+        binding.quickTipRecyclerView.layoutManager = LinearLayoutManager(
+            requireContext(),LinearLayoutManager.HORIZONTAL,false)
+        binding.quickTipRecyclerView.adapter = quickTipsAdapter
+
         observeFromViewModal()
         viewModel.getStatus(requireContext())
     }
+
+
+
     private fun observeFromViewModal() {
         viewModel.status.observe(requireActivity()) {
             statusAdapter.submitList(it)
+        }
+
+        viewModel.quickTips.observe(requireActivity()){
+            quickTipsAdapter.submitList(it)
         }
     }
 }
