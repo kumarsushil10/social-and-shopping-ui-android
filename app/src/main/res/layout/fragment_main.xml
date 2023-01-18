@@ -69,7 +69,7 @@
                 android:layout_marginTop="28dp"
                 android:fontFamily="@font/dm_sans_regular"
                 android:text="Quick Tips"
-                android:textColor="@color/black_40"
+                android:textColor="@color/black_60"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/status_recycler_view" />
@@ -84,6 +84,38 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tip"
                 tools:listitem="@layout/home_quick_tips_layout" />
+
+            <include
+                android:id="@+id/connection_text_view"
+                layout="@layout/home_textview_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/quickTip_recycler_view" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/connection_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="6dp"
+                android:layout_marginTop="16dp"
+                tools:itemCount="3"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/connection_text_view"
+                tools:listitem="@layout/home_quick_tips_layout" />
+
+            <include
+                android:id="@+id/offer_text"
+                layout="@layout/home_textview_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/connection_recycler_view" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
