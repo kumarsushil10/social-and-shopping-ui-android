@@ -1,0 +1,26 @@
+[
+  {
+    "key": "nina",
+    "userName": "Nina Marineko",
+    "userImage": "file:///android_asset/img/avatarImg/Nina Marineko.png",
+    "descriptions": "liked your photo",
+    "action": "file:///android_asset/img/feedsImg/mobile.png",
+    "actionType": 1
+  },
+  {
+    "key": "narie",
+    "userName": "Narie",
+    "userImage": "file:///android_asset/img/avatarImg/Narie.png",
+    "descriptions": "accepted your connect request",
+    "action": "",
+    "actionType": 2
+  },
+  {
+    "key": "vedic",
+    "userName": "Vedic",
+    "userImage": "file:///android_asset/img/avatarImg/vedic.png",
+    "descriptions": "shared a shorts",
+    "action": "file:///android_asset/img/feedsImg/glass frame.png",
+    "actionType": 3
+  }
+]

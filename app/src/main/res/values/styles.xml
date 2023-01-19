@@ -23,6 +23,15 @@
     <style name="roundedCorner10">
         <item name="cornerSize">10%</item>
     </style>
+    <style name="roundedCorner20">
+        <item name="cornerSize">20%</item>
+    </style>
+    <style name="roundedCorner25">
+        <item name="cornerSize">25%</item>
+    </style>
+    <style name="roundedCorner30">
+        <item name="cornerSize">30%</item>
+    </style>
     <style name="roundedFeedsImageView20">
         <item name="cornerSize">20%</item>
     </style>

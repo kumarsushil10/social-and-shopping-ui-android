@@ -20,6 +20,7 @@ class MainFragment:Fragment() {
     private val viewModel: HomeViewModel by viewModels()
     private var statusAdapter: StatusAdapter = StatusAdapter()
     private var quickTipsAdapter:QuickTipsAdapter = QuickTipsAdapter()
+    private var connectionAdapter:ConnectionAdapter = ConnectionAdapter()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -48,6 +49,11 @@ class MainFragment:Fragment() {
         binding.connectionTextView.textView.text = connectionText
 
 
+        binding.connectionRecyclerView.layoutManager = LinearLayoutManager(
+            requireContext(), LinearLayoutManager.VERTICAL,false)
+        binding.connectionRecyclerView.adapter = connectionAdapter
+
+
         val offerText = SpannableString("New Offers")
         offerText.setSpan(ForegroundColorSpan(resources.getColor(R.color.blue_text)), 0, 3, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
         binding.offerText.textView.text = offerText
@@ -68,6 +74,10 @@ class MainFragment:Fragment() {
 
         viewModel.quickTips.observe(requireActivity()){
             quickTipsAdapter.submitList(it)
+        }
+
+        viewModel.connection.observe(requireActivity()){
+            connectionAdapter.submitList(it)
         }
     }
 }
