@@ -4,34 +4,39 @@
     "userName": "Hendawi",
     "userImage": "file:///android_asset/img/avatarImg/Hendawi.png",
     "statusImage": "file:///android_asset/img/statusImg/fish.png",
-    "cornerColor": "#E31704"
+    "cornerColor": "#E31704",
+    "isLive": true
   },
   {
     "key": "nina",
     "userName": "Nina",
     "userImage": "file:///android_asset/img/avatarImg/Nina Marineko.png",
     "statusImage": "file:///android_asset/img/statusImg/birthday.png",
-    "cornerColor": "#9248FF"
+    "cornerColor": "#9248FF",
+    "isLive": false
   },
   {
     "key": "fanna",
     "userName": "Fanna",
     "userImage": "file:///android_asset/img/avatarImg/fenna.png",
     "statusImage": "file:///android_asset/img/statusImg/candy.png",
-    "cornerColor": "#FF3EC6"
+    "cornerColor": "#FF3EC6",
+    "isLive": true
   },
   {
     "key": "narie",
     "userName": "Narie",
     "userImage": "file:///android_asset/img/avatarImg/Narie.png",
     "statusImage": "file:///android_asset/img/statusImg/human.png",
-    "cornerColor": "#974F41"
+    "cornerColor": "#974F41",
+    "isLive": false
   },
   {
     "key": "nin",
     "userName": "Nina",
     "userImage": "file:///android_asset/img/avatarImg/Nina Marineko.png",
     "statusImage": "file:///android_asset/img/statusImg/fest.png",
-    "cornerColor": "#0097E8"
+    "cornerColor": "#0097E8",
+    "isLive": false
   }
 ]

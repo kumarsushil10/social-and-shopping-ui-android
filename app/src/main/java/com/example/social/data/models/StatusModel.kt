@@ -7,7 +7,8 @@ data class StatusModel(
     val key: String,
     val statusImage: String,
     val userImage: String,
-    val userName: String
+    val userName: String,
+    val isLive:Boolean
 ){
     companion object {
         var diffCallback: DiffUtil.ItemCallback<StatusModel> =

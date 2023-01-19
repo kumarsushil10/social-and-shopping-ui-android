@@ -9,6 +9,7 @@
     </data>
 
     <androidx.cardview.widget.CardView
+        android:layout_marginVertical="4dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="16dp">
@@ -32,7 +33,7 @@
                 android:id="@+id/user_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="6dp"
                 android:fontFamily="@font/dm_sans_regular"
                 android:text="@{bModel.userName}"
                 android:textColor="#3B75E5"
@@ -57,8 +58,8 @@
                 android:id="@+id/action"
                 android:layout_width="36dp"
                 android:layout_height="54dp"
-                android:layout_marginStart="12dp"
                 android:layout_marginEnd="16dp"
+                android:layout_marginVertical="4dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/fish"
                 app:layout_constraintBottom_toBottomOf="parent"

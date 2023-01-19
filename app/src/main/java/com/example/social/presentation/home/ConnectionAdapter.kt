@@ -22,15 +22,15 @@ class ConnectionAdapter:ListAdapter<ConnectionModel,RecyclerView.ViewHolder>(Con
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder =
     when (viewType) {
         1 -> {
-            likeLayoutBinding = HomeLikeLayoutBinding.inflate(LayoutInflater.from(parent.context))
+            likeLayoutBinding = HomeLikeLayoutBinding.inflate(LayoutInflater.from(parent.context),parent,false)
             LikeViewHolder(likeLayoutBinding)
         }
         2 -> {
-            connectionLayoutBinding = HomeConnectedLayoutBinding.inflate(LayoutInflater.from(parent.context))
+            connectionLayoutBinding = HomeConnectedLayoutBinding.inflate(LayoutInflater.from(parent.context),parent,false)
             ConnectionViewHolder(connectionLayoutBinding)
         }
         else -> {
-            postedLayoutBinding = HomePostedLayoutBinding.inflate(LayoutInflater.from(parent.context))
+            postedLayoutBinding = HomePostedLayoutBinding.inflate(LayoutInflater.from(parent.context),parent,false)
             PostViewHolder(postedLayoutBinding)
         }
     }

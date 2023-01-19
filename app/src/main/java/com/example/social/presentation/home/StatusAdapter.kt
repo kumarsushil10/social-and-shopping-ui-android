@@ -1,5 +1,6 @@
 package com.example.social.presentation.home
 
+import android.content.res.ColorStateList
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.graphics.toColorInt
@@ -19,6 +20,10 @@ class StatusAdapter:ListAdapter<StatusModel,RecyclerView.ViewHolder>(StatusModel
             binding.userImage.load(status.userImage)
             binding.statusImage.load(status.statusImage)
             binding.card.setCardBackgroundColor(status.cornerColor.toColorInt())
+            if (status.isLive){
+                binding.chip.text = "Live"
+                binding.chip.chipBackgroundColor = ColorStateList.valueOf(status.cornerColor.toColorInt())
+            }
         }
     }
 
