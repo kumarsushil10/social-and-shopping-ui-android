@@ -1,0 +1,35 @@
+[
+  {
+    "key": "perfume",
+    "offerTitle": "Newest Arrivals \nin Perfume",
+    "titleColor": "#000000",
+    "offerImage": "file:///android_asset/img/offerImg/perfume.png",
+    "offerPercent": "",
+    "offerDetails": "Checkout now",
+    "startColor": "#0E30E2",
+    "endColor": "#110E30E2",
+    "cardType": 1
+  },
+  {
+    "key": "veg",
+    "offerTitle": "Celebrate \nMax Savings !",
+    "titleColor": "#000000",
+    "offerImage": "file:///android_asset/img/offerImg/veg.png",
+    "offerPercent": "60% OFF",
+    "offerDetails": "ON ALL VEGETABLES",
+    "startColor": "#EE106E",
+    "endColor": "#11EE106E",
+    "cardType": 2
+  },
+  {
+    "key": "gitter",
+    "offerTitle": "Crazy offer \njust for you !",
+    "titleColor": "#FFFFFF",
+    "offerImage": "file:///android_asset/img/offerImg/gitter.png",
+    "offerPercent": "50% OFF",
+    "offerDetails": "ON Musical Instruments",
+    "startColor": "#42E2CF",
+    "endColor": "#1142E2CF",
+    "cardType": 2
+  }
+]

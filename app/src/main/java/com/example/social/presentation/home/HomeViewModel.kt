@@ -5,6 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.social.data.models.ConnectionModel
+import com.example.social.data.models.OfferModel
 import com.example.social.data.models.QuickTipsModel
 import com.example.social.data.models.StatusModel
 import com.example.social.utils.Utils
@@ -22,6 +23,9 @@ class HomeViewModel:ViewModel() {
 
     private val _connection = MutableLiveData<List<ConnectionModel>>()
     val connection: LiveData<List<ConnectionModel>> = _connection
+
+    private val _offer = MutableLiveData<List<OfferModel>>()
+    val offer: LiveData<List<OfferModel>> = _offer
 
     private val moshi: Moshi = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()
     fun getStatus(context: Context) {
@@ -42,6 +46,12 @@ class HomeViewModel:ViewModel() {
         val connectionAdapter: JsonAdapter<List<ConnectionModel>> = moshi.adapter(connectionListType)
         val connection = connectionAdapter.fromJson(connectionString)
         _connection.value = connection!!
+
+        val offerString = Utils.readJson(context, "data/home/offer.json")
+        val offerListType = Types.newParameterizedType(List::class.java, OfferModel::class.java)
+        val offerAdapter: JsonAdapter<List<OfferModel>> = moshi.adapter(offerListType)
+        val offer = offerAdapter.fromJson(offerString)
+        _offer.value = offer!!
     }
 
 }

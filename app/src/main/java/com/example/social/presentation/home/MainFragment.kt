@@ -11,6 +11,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.social.R
 import com.example.social.databinding.FragmentMainBinding
 
@@ -21,6 +22,7 @@ class MainFragment:Fragment() {
     private var statusAdapter: StatusAdapter = StatusAdapter()
     private var quickTipsAdapter:QuickTipsAdapter = QuickTipsAdapter()
     private var connectionAdapter:ConnectionAdapter = ConnectionAdapter()
+    private var offerAdapter:OfferAdapter = OfferAdapter()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -58,7 +60,8 @@ class MainFragment:Fragment() {
         offerText.setSpan(ForegroundColorSpan(resources.getColor(R.color.blue_text)), 0, 3, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
         binding.offerText.textView.text = offerText
 
-
+        binding.offerRecyclerView.layoutManager = StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
+        binding.offerRecyclerView.adapter  = offerAdapter
 
 
         observeFromViewModal()
@@ -78,6 +81,9 @@ class MainFragment:Fragment() {
 
         viewModel.connection.observe(requireActivity()){
             connectionAdapter.submitList(it)
+        }
+        viewModel.offer.observe(requireActivity()){
+            offerAdapter.submitList(it)
         }
     }
 }
