@@ -27,6 +27,9 @@
         <action
             android:id="@+id/action_homeFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_launcherFragment"
+            app:destination="@id/launcherFragment" />
     </fragment>
 
     <fragment
@@ -68,6 +71,11 @@
         android:id="@+id/mainFragment"
         android:name="com.example.social.presentation.home.MainFragment"
         android:label="MainFragment" />
+    <fragment
+        android:id="@+id/launcherFragment"
+        android:name="com.example.social.presentation.launcher.LauncherFragment"
+        android:label="LauncherFragment"
+        tools:layout="@layout/fragment_launcher"/>
 
 
 </navigation>
