@@ -13,24 +13,24 @@
 
         <action
             android:id="@+id/action_homeFragment_to_productCategoriesFragment"
-            app:destination="@id/productCategoriesFragment" />
+            app:destination="@id/nav_shop" />
         <action
             android:id="@+id/action_homeFragment_to_accountFragment"
-            app:destination="@id/accountFragment" />
+            app:destination="@id/nav_account" />
 
         <action
             android:id="@+id/action_homeFragment_to_cartFragment"
             app:destination="@id/cartFragment" />
         <action
             android:id="@+id/action_homeFragment_to_feedsFragment"
-            app:destination="@id/feedsFragment" />
+            app:destination="@id/nav_feed" />
         <action
             android:id="@+id/action_homeFragment_to_mainFragment"
-            app:destination="@id/mainFragment" />
+            app:destination="@id/nav_main" />
     </fragment>
 
     <fragment
-        android:id="@+id/productCategoriesFragment"
+        android:id="@+id/nav_shop"
         android:name="com.example.social.presentation.shoping.productCategories.ProductCategoriesFragment"
         android:label="fragment_product_categories"
         tools:layout="@layout/fragment_products_categories_list" >
@@ -49,7 +49,7 @@
             app:argType="com.example.social.data.models.Product"/>
     </fragment>
     <fragment
-        android:id="@+id/accountFragment"
+        android:id="@+id/nav_account"
         android:name="com.example.social.presentation.account.AccountFragment"
         android:label="AccountFragment"
         tools:layout="@layout/fragment_account"
@@ -60,14 +60,15 @@
         android:label="CartFragment"
         tools:layout="@layout/fragment_cart"/>
     <fragment
-        android:id="@+id/feedsFragment"
+        android:id="@+id/nav_feed"
         android:name="com.example.social.presentation.feeds.FeedsFragment"
         android:label="FeedsFragment"
         tools:layout="@layout/fragment_feeds"/>
     <fragment
-        android:id="@+id/mainFragment"
+        android:id="@+id/nav_main"
         android:name="com.example.social.presentation.home.MainFragment"
-        android:label="MainFragment" />
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main"/>
 
 
 </navigation>
