@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import androidx.core.content.ContextCompat
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
@@ -18,13 +19,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
-
         val navController = findNavController() ?: return
-
+        binding.bottomNavigationView.setupWithNavController(navController)
         navController.addOnDestinationChangedListener { _, destination, _ ->
-
-            Log.d("MainActivity", "addOnDestinationChangedListener: ${destination.id}")
             when (destination.id) {
                 R.id.nav_main -> binding.bottomNavigationView.visibility = View.VISIBLE
                 R.id.nav_feed -> binding.bottomNavigationView.visibility = View.VISIBLE
@@ -33,9 +30,6 @@ class MainActivity : AppCompatActivity() {
                 else -> binding.bottomNavigationView.visibility = View.GONE
             }
         }
-
-        binding.bottomNavigationView.setupWithNavController(navController)
-
     }
 
     private fun findNavController(): NavController? {

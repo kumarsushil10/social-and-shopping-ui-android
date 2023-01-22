@@ -1,4 +1,4 @@
-package com.example.social.presentation.shoping.productCategories
+package com.example.social.presentation.shopping.productCategories
 
 import android.content.Context
 import androidx.lifecycle.LiveData

@@ -10,7 +10,8 @@ import com.example.social.databinding.HomeConnectedLayoutBinding
 import com.example.social.databinding.HomeLikeLayoutBinding
 import com.example.social.databinding.HomePostedLayoutBinding
 
-class ConnectionAdapter:ListAdapter<ConnectionModel,RecyclerView.ViewHolder>(ConnectionModel.diffCallback) {
+class ConnectionAdapter :
+    ListAdapter<ConnectionModel, RecyclerView.ViewHolder>(ConnectionModel.diffCallback) {
     private lateinit var likeLayoutBinding: HomeLikeLayoutBinding
     private lateinit var postedLayoutBinding: HomePostedLayoutBinding
     private lateinit var connectionLayoutBinding: HomeConnectedLayoutBinding
@@ -20,47 +21,64 @@ class ConnectionAdapter:ListAdapter<ConnectionModel,RecyclerView.ViewHolder>(Con
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder =
-    when (viewType) {
-        1 -> {
-            likeLayoutBinding = HomeLikeLayoutBinding.inflate(LayoutInflater.from(parent.context),parent,false)
-            LikeViewHolder(likeLayoutBinding)
+        when (viewType) {
+            1 -> {
+                likeLayoutBinding =
+                    HomeLikeLayoutBinding.inflate(LayoutInflater.from(parent.context),
+                        parent,
+                        false)
+                LikeViewHolder(likeLayoutBinding)
+            }
+            2 -> {
+                connectionLayoutBinding =
+                    HomeConnectedLayoutBinding.inflate(LayoutInflater.from(parent.context),
+                        parent,
+                        false)
+                ConnectionViewHolder(connectionLayoutBinding)
+            }
+            else -> {
+                postedLayoutBinding =
+                    HomePostedLayoutBinding.inflate(LayoutInflater.from(parent.context),
+                        parent,
+                        false)
+                PostViewHolder(postedLayoutBinding)
+            }
         }
-        2 -> {
-            connectionLayoutBinding = HomeConnectedLayoutBinding.inflate(LayoutInflater.from(parent.context),parent,false)
-            ConnectionViewHolder(connectionLayoutBinding)
-        }
-        else -> {
-            postedLayoutBinding = HomePostedLayoutBinding.inflate(LayoutInflater.from(parent.context),parent,false)
-            PostViewHolder(postedLayoutBinding)
-        }
-    }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        if(holder is LikeViewHolder){ holder.bind(getItem(position)) }
-        if(holder is ConnectionViewHolder){ holder.bind(getItem(position)) }
-        if(holder is PostViewHolder){ holder.bind(getItem(position)) }
+        if (holder is LikeViewHolder) {
+            holder.bind(getItem(position))
+        }
+        if (holder is ConnectionViewHolder) {
+            holder.bind(getItem(position))
+        }
+        if (holder is PostViewHolder) {
+            holder.bind(getItem(position))
+        }
 
     }
 
-    class LikeViewHolder(private val binding: HomeLikeLayoutBinding)
-        :RecyclerView.ViewHolder(binding.root){
-        fun bind(connection:ConnectionModel){
+    class LikeViewHolder(private val binding: HomeLikeLayoutBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+        fun bind(connection: ConnectionModel) {
             binding.bModel = connection
             binding.userImage.load(connection.userImage)
             binding.action.load(connection.action)
         }
     }
-    class PostViewHolder(private val binding: HomePostedLayoutBinding)
-        :RecyclerView.ViewHolder(binding.root){
-        fun bind(connection:ConnectionModel){
+
+    class PostViewHolder(private val binding: HomePostedLayoutBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+        fun bind(connection: ConnectionModel) {
             binding.bModel = connection
             binding.userImage.load(connection.userImage)
             binding.action.load(connection.action)
         }
     }
-    class ConnectionViewHolder(private val binding: HomeConnectedLayoutBinding)
-        :RecyclerView.ViewHolder(binding.root){
-        fun bind(connection:ConnectionModel){
+
+    class ConnectionViewHolder(private val binding: HomeConnectedLayoutBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+        fun bind(connection: ConnectionModel) {
             binding.bModel = connection
             binding.userImage.load(connection.userImage)
         }

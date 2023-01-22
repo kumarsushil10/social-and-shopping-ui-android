@@ -54,5 +54,6 @@
 
     <string name="checkout">Checkout</string>
     <string name="_7000">$ 7000</string>
+    <string name="search">Search</string>
 
 </resources>

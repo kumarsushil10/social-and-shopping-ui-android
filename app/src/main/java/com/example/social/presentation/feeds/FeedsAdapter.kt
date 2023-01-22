@@ -2,6 +2,7 @@ package com.example.social.presentation.feeds
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.graphics.toColorInt
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
@@ -64,11 +65,13 @@ class FeedsAdapter:
             binding.bModel = feeds
             binding.userImage.load(feeds.userImage)
             binding.image.load(feeds.post[0])
+            binding.cardView.setCardBackgroundColor(feeds.color.toColorInt())
         }
     }
     class ArticleViewHolder(private val binding: FeedsArticleLayoutBinding):RecyclerView.ViewHolder(binding.root){
         fun bind(feeds: FeedsModel){
             binding.bModel = feeds
+            binding.cardView.setCardBackgroundColor(feeds.color.toColorInt())
             binding.userImage.load(feeds.userImage)
             binding.image.load(feeds.post[0])
             binding.image2.load(feeds.post[1])

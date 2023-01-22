@@ -12,31 +12,21 @@
         android:fitsSystemWindows="true">
 
         <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize">
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_new_24"
+            app:title="Feeds"
+            app:titleCentered="true">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_arrow_back_ios_new_24" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/plus_jakarta_sans_regular"
-                android:text="Feeds"
-                android:textFontWeight="500"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <ImageView
+            <Button
+                android:id="@+id/notification_icon"
+                style="?attr/materialIconButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
-                android:layout_marginRight="16dp"
-                android:src="@drawable/notification" />
-
+                android:layout_marginEnd="16dp"
+                app:icon="@drawable/notification" />
         </com.google.android.material.appbar.MaterialToolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -49,45 +39,45 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <LinearLayout
-                android:id="@+id/linearLayout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="20dp"
-                app:layout_constraintEnd_toEndOf="parent"
+            <EditText
+                android:id="@+id/search_bar"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/feeds_search_corner"
+                android:fontFamily="@font/plus_jakarta_sans_regular"
+                android:hint="@string/search"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:textSize="16sp"
+                app:layout_constraintDimensionRatio="11:2"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent" />
 
-                <EditText
-                    android:id="@+id/search_bar"
-                    android:layout_width="0dp"
-                    android:layout_height="52dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_weight="0.9"
-                    android:background="@drawable/feeds_search_corner"
-                    android:fontFamily="@font/plus_jakarta_sans_regular"
-                    android:hint="Search"
-                    android:paddingLeft="20dp"
-                    android:textSize="16sp" />
-
-                <ImageButton
-                    android:layout_width="52dp"
-                    android:layout_height="52dp"
-                    android:background="@drawable/feeds_search_button_corner"
-                    android:src="@drawable/ic_search" />
-            </LinearLayout>
+            <ImageButton
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/feeds_search_button_corner"
+                android:contentDescription="@string/search"
+                android:src="@drawable/ic_search"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/search_bar"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/feeds_recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
                 android:paddingHorizontal="16dp"
                 android:paddingBottom="12dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+                app:layout_constraintTop_toBottomOf="@+id/search_bar" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>

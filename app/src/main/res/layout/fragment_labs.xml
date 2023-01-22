@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.LabsFragment">
+
+    <Button
+        android:id="@+id/product_categories_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Categories"/>
+
+    <Button
+        android:id="@+id/cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cart"/>
+    <Button
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account"/>
+    <Button
+        android:id="@+id/feeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feeds"/>
+    <Button
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main"/>
+
+    <Button
+        android:id="@+id/launcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launcher"/>
+
+</LinearLayout>

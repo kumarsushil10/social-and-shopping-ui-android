@@ -1,4 +1,4 @@
-package com.example.social.presentation.shoping.productList
+package com.example.social.presentation.shopping.productList
 
 import android.app.Dialog
 import android.content.DialogInterface

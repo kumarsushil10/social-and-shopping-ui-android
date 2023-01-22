@@ -6,6 +6,7 @@
     "post": [
       "file:///android_asset/img/feedsImg/glass frame.png"
     ],
+    "color": "",
     "description": "",
     "spanCount": 1
   },
@@ -16,6 +17,7 @@
     "post": [
       "file:///android_asset/img/feedsImg/hills.png"
     ],
+    "color": "#464237",
     "description": "Nature is my medicine",
     "spanCount": 2
   },
@@ -28,6 +30,7 @@
       "file:///android_asset/img/feedsImg/mobile.png",
       "file:///android_asset/img/feedsImg/sphere.png"
     ],
+    "color": "#E2E2E2",
     "description": "Technology is best when it brings people together",
     "spanCount": 3
   },
@@ -38,6 +41,7 @@
     "post": [
       "file:///android_asset/img/feedsImg/girl with lemon.png"
     ],
+    "color": "#901B0A",
     "description": "When life give you lemons, Make it ..",
     "spanCount": 2
   },
@@ -48,6 +52,7 @@
     "post": [
       "file:///android_asset/img/feedsImg/cycle.png"
     ],
+    "color": "#901B0A",
     "description": "",
     "spanCount": 1
   },
@@ -58,6 +63,7 @@
     "post": [
       "file:///android_asset/img/feedsImg/glass frame.png"
     ],
+    "color": "#E2E2E2",
     "description": "",
     "spanCount": 1
   },
@@ -68,6 +74,7 @@
     "post": [
       "file:///android_asset/img/feedsImg/hills.png"
     ],
+    "color": "#464237",
     "description": "Nature is my medicine",
     "spanCount": 2
   },
@@ -80,6 +87,7 @@
       "file:///android_asset/img/feedsImg/mobile.png",
       "file:///android_asset/img/feedsImg/sphere.png"
     ],
+    "color": "#E2E2E2",
     "description": "Technology is best when it brings people together",
     "spanCount": 3
   },
@@ -90,6 +98,7 @@
     "post": [
       "file:///android_asset/img/feedsImg/girl with lemon.png"
     ],
+    "color": "#901B0A",
     "description": "When life give you lemons, Make it ..",
     "spanCount": 2
   },
@@ -100,8 +109,8 @@
     "post": [
       "file:///android_asset/img/feedsImg/cycle.png"
     ],
+    "color": "",
     "description": "",
     "spanCount": 1
   }
-
 ]

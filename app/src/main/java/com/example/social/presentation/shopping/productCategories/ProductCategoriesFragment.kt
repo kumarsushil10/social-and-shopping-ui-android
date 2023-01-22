@@ -1,21 +1,14 @@
-package com.example.social.presentation.shoping.productCategories
+package com.example.social.presentation.shopping.productCategories
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.social.databinding.FragmentProductListBinding
 import com.example.social.databinding.FragmentProductsCategoriesListBinding
-import com.example.social.presentation.shoping.productList.ProductDetailsBottomSheetFragment
-import com.example.social.presentation.shoping.productList.ProductListAdapter
-import com.example.social.presentation.shoping.productList.ProductListViewModel
-import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 class ProductCategoriesFragment : Fragment() {
     private val TAG = "ProductCategoriesFragment"

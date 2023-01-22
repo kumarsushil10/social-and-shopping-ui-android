@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navgraph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/LabsFragment">
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.example.social.presentation.home.HomeFragment"
+        android:id="@+id/LabsFragment"
+        android:name="com.example.social.presentation.LabsFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_labs" >
 
         <action
             android:id="@+id/action_homeFragment_to_productCategoriesFragment"
@@ -35,7 +35,7 @@
 
     <fragment
         android:id="@+id/nav_shop"
-        android:name="com.example.social.presentation.shoping.productCategories.ProductCategoriesFragment"
+        android:name="com.example.social.presentation.shopping.productCategories.ProductCategoriesFragment"
         android:label="fragment_product_categories"
         tools:layout="@layout/fragment_products_categories_list" >
         <action
@@ -45,35 +45,37 @@
 
     <fragment
         android:id="@+id/productListFragment"
-        android:name="com.example.social.presentation.shoping.productList.ProductListFragment"
+        android:name="com.example.social.presentation.shopping.productList.ProductListFragment"
         android:label="ProductListFragment"
         tools:layout="@layout/fragment_product_list">
         <argument
             android:name="products"
             app:argType="com.example.social.data.models.Product"/>
     </fragment>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.social.presentation.shopping.cart.CartFragment"
+        android:label="CartFragment"
+        tools:layout="@layout/fragment_cart"/>
+
     <fragment
         android:id="@+id/nav_account"
         android:name="com.example.social.presentation.account.AccountFragment"
         android:label="AccountFragment"
-        tools:layout="@layout/fragment_account"
-        />
-    <fragment
-        android:id="@+id/cartFragment"
-        android:name="com.example.social.presentation.shoping.cart.CartFragment"
-        android:label="CartFragment"
-        tools:layout="@layout/fragment_cart"/>
+        tools:layout="@layout/fragment_account" />
+
     <fragment
         android:id="@+id/nav_feed"
         android:name="com.example.social.presentation.feeds.FeedsFragment"
         android:label="FeedsFragment"
         tools:layout="@layout/fragment_feeds"/>
+
     <fragment
         android:id="@+id/nav_main"
-        android:name="com.example.social.presentation.home.MainFragment"
+        android:name="com.example.social.presentation.home.HomeFragment"
         android:label="MainFragment"
-        tools:layout="@layout/fragment_main"/>
-
+        tools:layout="@layout/fragment_home"/>
 
     <fragment
         android:id="@+id/launcherFragment"

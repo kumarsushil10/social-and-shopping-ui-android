@@ -4,6 +4,7 @@ import androidx.recyclerview.widget.DiffUtil
 
 data class FeedsModel(
     val key:String,
+    val color:String,
     val description: String,
     val post: List<String>,
     val userImage: String,
