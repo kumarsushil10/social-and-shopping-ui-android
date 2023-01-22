@@ -16,5 +16,5 @@
     <item
         android:title="Account"
         android:id="@+id/nav_account"
-        android:icon="@drawable/ic_setting"/>
+        android:icon="@drawable/ic_outline_person_4_24"/>
 </menu>
