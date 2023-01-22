@@ -81,6 +81,4 @@
         android:label="LauncherFragment"
         tools:layout="@layout/fragment_launcher"/>
 
-
-
 </navigation>
