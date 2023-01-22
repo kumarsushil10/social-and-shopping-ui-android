@@ -4,39 +4,90 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="50dp"
     tools:context=".presentation.LabsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/plus_jakarta_sans_regular"
+        android:text="Design Template"
+        android:textColor="#2749FF"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/plus_jakarta_sans_regular"
+        android:text="Social  &amp; \nE-Commerce "
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_marginTop="32dp"
+        android:id="@+id/launcher"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:backgroundTint="#2749FF"
+        android:text="Get Started"/>
+    <Button
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:backgroundTint="#FA5270"
+        android:text="Home"/>
+    <Button
+        android:id="@+id/forms"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:backgroundTint="#FFD655"
+        android:text="Forms"/>
+    <Button
+        android:id="@+id/posts"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:backgroundTint="#F16BFD"
+        android:text="Posts"/>
+    <Button
+        android:id="@+id/reels"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:backgroundTint="#6BFDAE"
+        android:text="Reels"/>
+
+
+
+
+
+
+
+
 
     <Button
         android:id="@+id/product_categories_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Product Categories"/>
+        android:text="Product Categories" />
 
     <Button
         android:id="@+id/cart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cart"/>
+        android:text="Cart" />
+
     <Button
         android:id="@+id/account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Account"/>
+        android:text="Account" />
+
     <Button
         android:id="@+id/feeds"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Feeds"/>
-    <Button
-        android:id="@+id/main"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Main"/>
+        android:text="Feeds" />
 
-    <Button
-        android:id="@+id/launcher"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Launcher"/>
+
 
 </LinearLayout>
