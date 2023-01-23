@@ -1,5 +1,4 @@
-# Social-and-shopping-android-template
-
+# Social and E-commerce Templates
 If you are planning to create an e-commerce app in android than this repository will help you ,
 <br>
 <br>
@@ -16,13 +15,13 @@ This app is designed for developers who want to set up ui page for their mobile 
 
 
 
-
 <br>
 
 # Features:
 * Usage of android Data binding.
 * MVVM Architecture + Clean architecture.
-* Dynamic Usage of Constraint Layout, Coil Image Load etc.
+* Dynamic Usage of Constraint Layout.
+* Coil for image Loading.
 * Theming in M3 for Light and Dark.
 
 
@@ -33,12 +32,13 @@ This app is designed for developers who want to set up ui page for their mobile 
 # Tech Stack
 This project takes advantage of best practices of common libraryies and tools in android.
 * [Kotlin](https://kotlinlang.org/)  
+* [Material Design 3](https://m3.material.io/develop/android/mdc-android)
+* [Moshi](https://github.com/square/moshi) 
 * [Coil](https://github.com/coil-kt/coil) - image loading library
 * [Jetpack libraries](https://developer.android.com/jetpack):
    * [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/) - in-app navigation
    * [Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle) - perform an action when lifecycle state changes
    * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - store and manage UI-related data in a lifecycle conscious way
-
 
 
 
