@@ -14,6 +14,12 @@ This app is designed for developers who want to set up ui page for their mobile 
 
 
 
+<br>
+
+## Goals
+- A very good UI for user to interact.
+
+
 
 <br>
 
@@ -23,6 +29,7 @@ This app is designed for developers who want to set up ui page for their mobile 
 * Dynamic Usage of Constraint Layout.
 * Coil for image Loading.
 * Theming in M3 for Light and Dark.
+
 
 
 
@@ -43,6 +50,7 @@ This project takes advantage of best practices of common libraryies and tools in
 
 
 
+
 <br>
 
 ## Show your love :heart: by giving a :star: on this project.
@@ -50,7 +58,7 @@ This project takes advantage of best practices of common libraryies and tools in
 
 
 
-
+<br>
 
 # Open Source Credits
 
@@ -59,5 +67,14 @@ This project takes advantage of best practices of common libraryies and tools in
 
 
 
+
+
+<br>
+
+# License
+
+[![License](https://img.shields.io/:license-mit-blue.svg?style=for-the-badge)](https://badges.mit-license.org)
+
+- **[MIT license](LICENSE)**
 
 
