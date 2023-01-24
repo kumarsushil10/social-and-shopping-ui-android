@@ -12,19 +12,6 @@
         tools:layout="@layout/fragment_labs" >
 
         <action
-            android:id="@+id/action_homeFragment_to_productCategoriesFragment"
-            app:destination="@id/nav_shop" />
-        <action
-            android:id="@+id/action_homeFragment_to_accountFragment"
-            app:destination="@id/nav_account" />
-
-        <action
-            android:id="@+id/action_homeFragment_to_cartFragment"
-            app:destination="@id/cartFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_feedsFragment"
-            app:destination="@id/nav_feed" />
-        <action
             android:id="@+id/action_homeFragment_to_mainFragment"
             app:destination="@id/nav_main" />
 
@@ -51,6 +38,9 @@
         <argument
             android:name="products"
             app:argType="com.example.social.data.models.Product"/>
+        <action
+            android:id="@+id/action_productListFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
     </fragment>
 
     <fragment
@@ -81,6 +71,10 @@
         android:id="@+id/launcherFragment"
         android:name="com.example.social.presentation.launcher.LauncherFragment"
         android:label="LauncherFragment"
-        tools:layout="@layout/fragment_launcher"/>
+        tools:layout="@layout/fragment_launcher">
+        <action
+            android:id="@+id/action_launcherFragment_to_nav_main"
+            app:destination="@id/nav_main" />
+    </fragment>
 
 </navigation>

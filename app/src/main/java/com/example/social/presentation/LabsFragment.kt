@@ -24,23 +24,6 @@ class LabsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.productCategoriesBtn.setOnClickListener {
-            val action = LabsFragmentDirections.actionHomeFragmentToProductCategoriesFragment()
-            findNavController().navigate(action)
-        }
-
-        binding.account.setOnClickListener {
-            val action = LabsFragmentDirections.actionHomeFragmentToAccountFragment()
-            findNavController().navigate(action)
-        }
-        binding.cart.setOnClickListener {
-            val action = LabsFragmentDirections.actionHomeFragmentToCartFragment()
-            findNavController().navigate(action)
-        }
-        binding.feeds.setOnClickListener{
-            val action = LabsFragmentDirections.actionHomeFragmentToFeedsFragment()
-            findNavController().navigate(action)
-        }
         binding.main.setOnClickListener{
             val action = LabsFragmentDirections.actionHomeFragmentToMainFragment()
             findNavController().navigate(action)

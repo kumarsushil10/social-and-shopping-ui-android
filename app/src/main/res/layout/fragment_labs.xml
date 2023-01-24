@@ -56,38 +56,4 @@
         android:backgroundTint="#6BFDAE"
         android:text="Reels"/>
 
-
-
-
-
-
-
-
-
-    <Button
-        android:id="@+id/product_categories_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Product Categories" />
-
-    <Button
-        android:id="@+id/cart"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cart" />
-
-    <Button
-        android:id="@+id/account"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Account" />
-
-    <Button
-        android:id="@+id/feeds"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Feeds" />
-
-
-
 </LinearLayout>

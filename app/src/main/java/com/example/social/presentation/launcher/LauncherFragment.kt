@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import coil.load
 import com.example.social.R
 import com.example.social.databinding.FragmentLauncherBinding
@@ -24,5 +25,10 @@ class LauncherFragment():Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.personImage.load(R.drawable.person)
         binding.brandImage.load(R.drawable.brands)
+
+        binding.startConstraint.setOnClickListener {
+            val action = LauncherFragmentDirections.actionLauncherFragmentToNavMain()
+            findNavController().navigate(action)
+        }
     }
 }

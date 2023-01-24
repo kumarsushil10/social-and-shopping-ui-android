@@ -12,18 +12,14 @@
 
         <com.google.android.material.appbar.MaterialToolbar
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_arrow_back_ios_new_24" />
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_new_24">
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
-                android:layout_marginRight="6dp"
+                android:layout_marginEnd="6dp"
                 android:src="@drawable/ic_cart_colored"
                 app:shapeAppearance="@style/roundedToolBarImageView" />
 
@@ -35,12 +31,13 @@
                 android:text="Cart"
                 android:textSize="24sp" />
 
-            <ImageView
+            <Button
+                style="?attr/materialIconButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
-                android:layout_marginRight="16dp"
-                android:src="@drawable/notification" />
+                android:layout_marginEnd="16dp"
+                app:icon="@drawable/notification" />
         </com.google.android.material.appbar.MaterialToolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -102,7 +99,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/dm_sans_regular"
                 android:text="Total:"
