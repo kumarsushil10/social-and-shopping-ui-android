@@ -31,6 +31,11 @@ class ProductCategoriesFragment : Fragment() {
         binding.productsRecyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
         binding.productsRecyclerView.adapter = mAdapter
 
+        binding.fab.setOnClickListener{
+            val action = ProductCategoriesFragmentDirections.actionNavShopToCartFragment()
+            findNavController().navigate(action)
+        }
+
         observeFromViewModal()
         viewModel.getJson(requireContext())
 

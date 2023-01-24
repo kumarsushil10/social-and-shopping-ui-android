@@ -3,22 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navgraph"
-    app:startDestination="@id/LabsFragment">
+    app:startDestination="@id/launcherFragment">
 
-    <fragment
-        android:id="@+id/LabsFragment"
-        android:name="com.example.social.presentation.LabsFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_labs" >
+<!--    <fragment-->
+<!--        android:id="@+id/LabsFragment"-->
+<!--        android:name="com.example.social.presentation.LabsFragment"-->
+<!--        android:label="fragment_home"-->
+<!--        tools:layout="@layout/fragment_labs" >-->
 
-        <action
-            android:id="@+id/action_homeFragment_to_mainFragment"
-            app:destination="@id/nav_main" />
+<!--        <action-->
+<!--            android:id="@+id/action_homeFragment_to_mainFragment"-->
+<!--            app:destination="@id/nav_main" />-->
 
-        <action
-            android:id="@+id/action_homeFragment_to_launcherFragment"
-            app:destination="@id/launcherFragment" />
-    </fragment>
+<!--        <action-->
+<!--            android:id="@+id/action_homeFragment_to_launcherFragment"-->
+<!--            app:destination="@id/launcherFragment" />-->
+<!--    </fragment>-->
 
     <fragment
         android:id="@+id/nav_shop"
@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_productCategoriesFragment_to_productListFragment"
             app:destination="@id/productListFragment" />
+        <action
+            android:id="@+id/action_nav_shop_to_cartFragment"
+            app:destination="@id/cartFragment" />
     </fragment>
 
     <fragment

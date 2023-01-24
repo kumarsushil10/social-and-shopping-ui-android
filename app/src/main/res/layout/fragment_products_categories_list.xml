@@ -51,5 +51,14 @@
             app:spanCount="2"
             tools:listitem="@layout/products_categories_card_layout" />
 
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+           android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFD655"
+            android:layout_margin="20dp"
+            android:src="@drawable/kart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
