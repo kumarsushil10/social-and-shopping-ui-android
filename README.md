@@ -1,10 +1,8 @@
 # Social and E-commerce Templates
-If you are planning to create an e-commerce app in android than this repository will help you ,
+Check out the beautiful and colorful UI design implemented for a social and shopping app.
 <br>
 <br>
-This app is designed for developers who want to set up ui page for their mobile applications. It is made with usability and simplicity in mind for you to easily customize.
-
-
+This app follows **[Material You](https://m3.material.io/develop/android/mdc-android)** guidelines, and most of the layouts are made using **[ConstraintLayout](https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout)**. I used dummy data for lists and tabs, which you can easily customise.  
 
 
 # Screenshots
@@ -25,8 +23,8 @@ This app is designed for developers who want to set up ui page for their mobile 
 
 # Features:
 * Usage of android Data binding.
-* MVVM Architecture + Clean architecture.
-* Dynamic Usage of Constraint Layout.
+* MVVM Architecture.
+* Usage of Constraint Layout.
 * Coil for image Loading.
 * Theming in M3 for Light and Dark.
 
@@ -37,13 +35,13 @@ This app is designed for developers who want to set up ui page for their mobile 
 <br>
 
 # Tech Stack
-This project takes advantage of best practices of common libraryies and tools in android.
+This project takes advantage of the best practises of common libraries and tools in Android.
 * [Kotlin](https://kotlinlang.org/)  
-* [Material Design 3](https://m3.material.io/develop/android/mdc-android)
+* [Material You](https://m3.material.io/develop/android/mdc-android)
 * [Moshi](https://github.com/square/moshi) 
-* [Coil](https://github.com/coil-kt/coil) - image loading library
+* [Coil](https://github.com/coil-kt/coil) 
 * [Jetpack libraries](https://developer.android.com/jetpack):
-   * [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/) - in-app navigation
+   * [Navigation component](https://developer.android.com/topic/libraries/architecture/navigation/) - in-app navigation
    * [Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle) - perform an action when lifecycle state changes
    * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - store and manage UI-related data in a lifecycle conscious way
 
@@ -53,7 +51,7 @@ This project takes advantage of best practices of common libraryies and tools in
 
 <br>
 
-## Show your love :heart: by giving a :star: on this project.
+## If this project helps you reduce the time it takes to develop, then please show your love:heart: by giving :star: to this project.
 
 
 
@@ -62,7 +60,7 @@ This project takes advantage of best practices of common libraryies and tools in
 
 # Open Source Credits
 
-- Thanks [Junkies Labs](https://junkielabs.in/r) for providing design.
+- Thanks [Junkies Labs](https://junkielabs.in/) for providing design.
 - Thank you to everyone who tried out this app and opened issues, suggested features, provided translations, or tested debug builds for me
 
 
