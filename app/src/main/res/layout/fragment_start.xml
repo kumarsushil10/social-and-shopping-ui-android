@@ -7,44 +7,46 @@
 
     <ImageView
         android:id="@+id/person_image"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
-        tools:src="@drawable/person"
-        app:layout_constraintDimensionRatio="3:4"
+        android:paddingEnd="36dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintWidth_percent="0.9" />
+        tools:src="@drawable/person" />
 
     <ImageView
         android:id="@+id/brand_image"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintDimensionRatio="2:5"
         android:layout_marginBottom="28dp"
-        tools:src="@drawable/brands"
         app:layout_constraintBottom_toTopOf="@id/start_constraint"
+        app:layout_constraintDimensionRatio="1:2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/constraintLayout" />
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+        tools:src="@drawable/brands" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/launcher_background_corner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/person_image"
         app:layout_constraintWidth_percent="0.7">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:fontFamily="@font/plus_jakarta_sans_regular"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:lineHeight="48sp"
             android:text="Mandi \nSamaj"
+            android:textAppearance="@style/App.TextAppearance.HeadlineLarge.PlusJakarta"
             android:textColor="@color/white"
             android:textSize="40sp"
-            android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/textView3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -54,9 +56,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginBottom="20dp"
-            android:fontFamily="@font/dm_sans_regular"
+            android:layout_marginBottom="24dp"
+            android:lineHeight="28sp"
             android:text="Easy sopping in \nyour \nconnections"
+            android:textAppearance="@style/App.TextAppearance.BodyLarge.DM"
             android:textColor="#A6FFFFFF"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -69,7 +72,7 @@
         android:layout_height="0dp"
         android:background="#122A6F"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="4:6"
+        app:layout_constraintDimensionRatio="3:4"
         app:layout_constraintStart_toEndOf="@id/constraintLayout"
         app:layout_constraintWidth_percent="0.3">
 
@@ -77,11 +80,11 @@
             android:id="@+id/get_start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/plus_jakarta_sans_regular"
+            android:lineHeight="32sp"
             android:text="Get \nStarted"
             android:textAlignment="center"
+            android:textAppearance="@style/App.TextAppearance.BodyLarge.PlusJakarta"
             android:textColor="@color/white"
-            android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@id/start_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -91,12 +94,12 @@
             android:id="@+id/start_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_baseline_arrow_forward_24"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/get_start" />
+            app:layout_constraintStart_toStartOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

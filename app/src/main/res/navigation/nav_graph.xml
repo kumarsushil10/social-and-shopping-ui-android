@@ -72,9 +72,9 @@
 
     <fragment
         android:id="@+id/launcherFragment"
-        android:name="com.example.social.presentation.launcher.LauncherFragment"
+        android:name="com.example.social.presentation.start.StartFragment"
         android:label="LauncherFragment"
-        tools:layout="@layout/fragment_launcher">
+        tools:layout="@layout/fragment_start">
         <action
             android:id="@+id/action_launcherFragment_to_nav_main"
             app:destination="@id/nav_main" />

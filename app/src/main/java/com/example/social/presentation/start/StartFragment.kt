@@ -1,4 +1,4 @@
-package com.example.social.presentation.launcher
+package com.example.social.presentation.start
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,16 +8,16 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import coil.load
 import com.example.social.R
-import com.example.social.databinding.FragmentLauncherBinding
+import com.example.social.databinding.FragmentStartBinding
 
-class LauncherFragment():Fragment() {
-    private lateinit var binding:FragmentLauncherBinding
+class StartFragment():Fragment() {
+    private lateinit var binding:FragmentStartBinding
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentLauncherBinding.inflate(layoutInflater)
+        binding = FragmentStartBinding.inflate(layoutInflater)
         return binding.root
     }
 
@@ -27,7 +27,7 @@ class LauncherFragment():Fragment() {
         binding.brandImage.load(R.drawable.brands)
 
         binding.startConstraint.setOnClickListener {
-            val action = LauncherFragmentDirections.actionLauncherFragmentToNavMain()
+            val action = StartFragmentDirections.actionLauncherFragmentToNavMain()
             findNavController().navigate(action)
         }
     }

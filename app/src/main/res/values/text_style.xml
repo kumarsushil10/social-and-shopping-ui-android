@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="App.TextAppearance.HeadlineSmall.PlusJakarta" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
+
+    </style>
+
+    <style name="App.TextAppearance.HeadlineLarge.PlusJakarta" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/plus_jakarta_sans_extra_bold</item>
+
+    </style>
+    <style name="App.TextAppearance.BodyLarge.PlusJakarta" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
+    </style>
+
+    <style name="App.TextAppearance.BodyLarge.DM" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/dm_sans_regular</item>
+
+    </style>
+</resources>
