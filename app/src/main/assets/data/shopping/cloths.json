@@ -1,5 +1,6 @@
  [
     {
+      "key": "kitty",
       "image": "file:///android_asset/img/clothsImg/kotty_trouser.png",
       "title": "Kitty-Trouser",
       "subtitle": "For Women",
@@ -9,6 +10,7 @@
       "size": "XL"
     },
     {
+      "key": "coat",
       "image": "file:///android_asset/img/clothsImg/coat.png",
       "title": "Coat",
       "subtitle": "Professional Wear",
@@ -18,6 +20,7 @@
       "size": "M"
     },
     {
+      "key": "polo",
       "image": "file:///android_asset/img/clothsImg/polo_tshirt.png",
       "title": "Polo T-Shirt",
       "subtitle": "Best for Sport",
@@ -27,6 +30,7 @@
       "size": "S"
     },
     {
+      "key": "eye",
       "image": "file:///android_asset/img/clothsImg/eye_bogle.png",
       "title": "Eye Bogle",
       "subtitle": "Professional Wear ",
@@ -36,6 +40,7 @@
       "size": "L"
     },
     {
+      "key": "street",
       "image": "file:///android_asset/img/clothsImg/street_mash.png",
       "title": "Street mash",
       "subtitle": "Be different",
@@ -45,6 +50,7 @@
       "size": "XXL"
     },
     {
+      "key": "rain",
       "image": "file:///android_asset/img/clothsImg/rain_coat.png",
       "title": "Rain Coat",
       "subtitle": "Water Proof",

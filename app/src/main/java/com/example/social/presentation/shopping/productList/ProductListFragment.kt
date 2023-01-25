@@ -18,7 +18,7 @@ class ProductListFragment : Fragment() {
     private val TAG = "ProductListFragment"
     private lateinit var binding: FragmentProductListBinding
     private val viewModel: ProductListViewModel by viewModels()
-    private var mAdapter: ProductListAdapter = ProductListAdapter(ArrayList())
+    private var mAdapter: ProductListAdapter = ProductListAdapter()
     private val args:ProductListFragmentArgs by navArgs()
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -45,9 +45,8 @@ class ProductListFragment : Fragment() {
     }
 
     private fun observeFromViewModal() {
-        viewModel.product.observe(requireActivity()) { products ->
-            mAdapter.loadData(products)
-
+        viewModel.product.observe(requireActivity()) {
+            mAdapter.submitList(it)
             mAdapter.onItemClick = {
                 val bottomSheetFragment: BottomSheetDialogFragment = ProductDetailsBottomSheetFragment(it)
                 bottomSheetFragment.show(requireFragmentManager(), bottomSheetFragment.tag)

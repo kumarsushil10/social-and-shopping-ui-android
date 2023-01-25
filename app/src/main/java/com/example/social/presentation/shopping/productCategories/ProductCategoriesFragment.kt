@@ -14,7 +14,7 @@ class ProductCategoriesFragment : Fragment() {
     private val TAG = "ProductCategoriesFragment"
     private lateinit var binding: FragmentProductsCategoriesListBinding
     private val viewModel: ProductCategoriesViewModel by viewModels()
-    private var mAdapter: ProductCategoriesAdapter = ProductCategoriesAdapter(ArrayList())
+    private var mAdapter: ProductCategoriesAdapter = ProductCategoriesAdapter()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -43,8 +43,8 @@ class ProductCategoriesFragment : Fragment() {
     }
 
     private fun observeFromViewModal() {
-        viewModel.productCategories.observe(requireActivity()) { productCategories ->
-            mAdapter.loadData(productCategories)
+        viewModel.productCategories.observe(requireActivity()) {
+           mAdapter.submitList(it)
             mAdapter.onItemClick = {
                 val action = ProductCategoriesFragmentDirections.actionProductCategoriesFragmentToProductListFragment(it)
                 findNavController().navigate(action)

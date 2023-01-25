@@ -8,12 +8,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import coil.load
-import com.example.social.data.models.Cloth
+import com.example.social.data.models.ClothModel
 import com.example.social.databinding.ProductSItemBottomSheetLayoutBinding
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
-class ProductDetailsBottomSheetFragment(private val cloth:Cloth): BottomSheetDialogFragment() {
+class ProductDetailsBottomSheetFragment(private val cloth:ClothModel): BottomSheetDialogFragment() {
     private lateinit var binding: ProductSItemBottomSheetLayoutBinding
     override fun onCreateView(
         inflater: LayoutInflater,

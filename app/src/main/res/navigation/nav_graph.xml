@@ -40,7 +40,7 @@
         tools:layout="@layout/fragment_product_list">
         <argument
             android:name="products"
-            app:argType="com.example.social.data.models.Product"/>
+            app:argType="com.example.social.data.models.ProductModel"/>
         <action
             android:id="@+id/action_productListFragment_to_cartFragment"
             app:destination="@id/cartFragment" />
