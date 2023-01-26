@@ -13,14 +13,20 @@
         <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
     </style>
 
-    <style name="App.TextAppearance.TitleMedium.PlusJakarta.Bold" parent="TextAppearance.Material3.TitleMedium">
+    <style name="App.TextAppearance.TitleMedium.PlusJakarta.ExtraBold" parent="TextAppearance.Material3.TitleMedium">
         <item name="fontFamily">@font/plus_jakarta_sans_extra_bold</item>
+    </style>
+    <style name="App.TextAppearance.TitleMedium.PlusJakarta.Bold" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/plus_jakarta_sans_bold</item>
     </style>
 
     <style name="App.TextAppearance.TitleMedium.PlusJakarta" parent="TextAppearance.Material3.TitleMedium">
         <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
     </style>
 
+    <style name="App.TextAppearance.TitleSmall.PlusJakarta.Bold" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/plus_jakarta_sans_bold</item>
+    </style>
     <style name="App.TextAppearance.TitleSmall.PlusJakarta" parent="TextAppearance.Material3.TitleSmall">
         <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
     </style>
@@ -54,7 +60,12 @@
 
 
         <!--Dm Sans-->
-
+    <style name="App.TextAppearance.HeadlineMedium.Dm.Bold" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/dm_sans_bold</item>
+    </style>
+    <style name="App.TextAppearance.HeadlineMedium.Dm" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/dm_sans_regular</item>
+    </style>
 
     <style name="App.TextAppearance.HeadlineSmall.Dm.Bold" parent="TextAppearance.Material3.HeadlineSmall">
         <item name="fontFamily">@font/dm_sans_bold</item>

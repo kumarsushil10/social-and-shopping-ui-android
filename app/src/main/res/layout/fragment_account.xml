@@ -190,6 +190,7 @@
                 android:layout_marginStart="40dp"
                 android:textAppearance="@style/App.TextAppearance.BodySmall.PlusJakarta"
                 android:text="@string/you_have_earned"
+                android:alpha="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 

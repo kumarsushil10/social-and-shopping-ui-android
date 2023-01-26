@@ -28,6 +28,7 @@
             android:layout_weight="0.3"
             android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
             android:gravity="end"
+            android:alpha="0.6"
             android:text="@string/in_process" />
 
         <ImageView
@@ -44,6 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="2dp"
+        android:alpha="0.6"
         android:textAppearance="@style/App.TextAppearance.BodySmall.PlusJakarta"
         android:text="@string/delivery_by"
         app:layout_constraintStart_toStartOf="parent"
@@ -123,6 +125,7 @@
             android:layout_weight="0.3"
             android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
             android:gravity="end"
+            android:alpha="0.6"
             android:text="@string/delivered" />
 
         <ImageView
@@ -139,6 +142,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="2dp"
+        android:alpha="0.6"
         android:textAppearance="@style/App.TextAppearance.BodySmall.PlusJakarta"
         android:text="@string/delivery_by"
         app:layout_constraintStart_toStartOf="parent"

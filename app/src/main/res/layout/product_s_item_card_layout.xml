@@ -32,8 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{bModel.title}"
-            android:fontFamily="@font/plus_jakarta_sans_regular"
-            android:textSize="15sp"
+            android:textAppearance="@style/App.TextAppearance.BodyMedium.PlusJakarta"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/image" />
 
@@ -42,9 +41,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{bModel.subtitle}"
-            android:textSize="12sp"
+            android:textAppearance="@style/App.TextAppearance.TitleSmall.PlusJakarta"
             android:alpha="0.5"
-            android:fontFamily="@font/plus_jakarta_sans_regular"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/title" />
 
@@ -53,9 +51,10 @@
             android:fontFamily="@font/dm_sans_regular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textAppearance="@style/App.TextAppearance.TitleLarge.Dm.Bold"
             android:text="@{bModel.price}"
             android:textSize="16sp"
-            android:textStyle="bold"
+            android:textFontWeight="700"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/subtitle" />
     </androidx.constraintlayout.widget.ConstraintLayout>
