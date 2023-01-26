@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="4dp"
         android:layout_marginTop="10dp"
-        app:cardBackgroundColor="#E2E2E2"
+        app:cardBackgroundColor="@color/gray_100"
         app:cardCornerRadius="24dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -75,12 +75,11 @@
                 android:id="@+id/descriptions"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
                 android:layout_marginVertical="8dp"
-                android:fontFamily="@font/dm_sans_regular"
+                android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
                 android:text="@{bModel.description}"
                 android:textColor="@color/black"
-                android:textSize="12sp"
                 app:layout_constraintTop_toBottomOf="@id/image"
                 app:layout_constraintBottom_toTopOf="@+id/user_name"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -89,7 +88,7 @@
                 android:id="@+id/feeds_avatar_background"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginBottom="4dp"
                 android:background="@drawable/feeds_avatar_background"
@@ -112,11 +111,10 @@
                 android:id="@+id/user_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
-                android:fontFamily="@font/dm_sans_regular"
+                android:layout_marginStart="2dp"
+                android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
                 android:text="@{bModel.userName}"
                 android:textColor="@color/black"
-                android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="@id/user_image"
                 app:layout_constraintStart_toEndOf="@id/user_image"
                 app:layout_constraintTop_toTopOf="@id/user_image" />

@@ -34,10 +34,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
-                android:fontFamily="@font/dm_sans_regular"
+                android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
                 android:text="@{bModel.userName}"
-                android:textColor="#3B75E5"
-                android:textSize="12sp"
+                android:textColor="@color/blue_100"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/user_image"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -47,9 +46,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
-                android:fontFamily="@font/dm_sans_regular"
+                android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
                 android:text="@{bModel.descriptions}"
-                android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/user_name"
                 app:layout_constraintTop_toTopOf="parent" />

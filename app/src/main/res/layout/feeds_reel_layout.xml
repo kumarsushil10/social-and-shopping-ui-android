@@ -7,7 +7,6 @@
         <variable
             name="bModel"
             type="com.example.social.data.models.FeedsModel" />
-
     </data>
 
     <androidx.cardview.widget.CardView
@@ -69,11 +68,10 @@
                 android:id="@+id/user_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
-                android:fontFamily="@font/dm_sans_regular"
+                android:layout_marginStart="2dp"
+                android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
                 android:text="@{bModel.userName}"
                 android:textColor="@color/white"
-                android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="@id/user_image"
                 app:layout_constraintStart_toEndOf="@id/user_image"
                 app:layout_constraintTop_toTopOf="@id/user_image" />

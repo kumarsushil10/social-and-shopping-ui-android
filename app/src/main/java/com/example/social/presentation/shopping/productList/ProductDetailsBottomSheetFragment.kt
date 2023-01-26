@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import coil.load
 import com.example.social.data.models.ClothModel
 import com.example.social.databinding.ProductSItemBottomSheetLayoutBinding
+import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
@@ -49,5 +50,8 @@ class ProductDetailsBottomSheetFragment(private val cloth:ClothModel): BottomShe
             com.google.android.material.R.id.design_bottom_sheet)
             ?: return
         bottomSheet.setBackgroundColor(Color.TRANSPARENT)
+
+        val bottomSheetBehavior = BottomSheetBehavior.from(bottomSheet)
+        bottomSheetBehavior.state = BottomSheetBehavior.STATE_EXPANDED
     }
 }

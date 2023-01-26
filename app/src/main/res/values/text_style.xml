@@ -1,21 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="App.TextAppearance.HeadlineSmall.PlusJakarta" parent="TextAppearance.Material3.HeadlineSmall">
-        <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
-
+    <style name="App.TextAppearance.HeadlineLarge.PlusJakarta.Bold" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/plus_jakarta_sans_extra_bold</item>
     </style>
 
     <style name="App.TextAppearance.HeadlineLarge.PlusJakarta" parent="TextAppearance.Material3.HeadlineLarge">
-        <item name="fontFamily">@font/plus_jakarta_sans_extra_bold</item>
-
+        <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
     </style>
+
+    <style name="App.TextAppearance.HeadlineSmall.PlusJakarta" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
+    </style>
+
+    <style name="App.TextAppearance.TitleMedium.PlusJakarta.Bold" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/plus_jakarta_sans_extra_bold</item>
+    </style>
+
+    <style name="App.TextAppearance.TitleMedium.PlusJakarta" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
+    </style>
+
+    <style name="App.TextAppearance.TitleSmall.PlusJakarta" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
+    </style>
+
+    <style name="App.TextAppearance.BodyLarge.PlusJakarta.Bold" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/plus_jakarta_sans_bold</item>
+    </style>
+
     <style name="App.TextAppearance.BodyLarge.PlusJakarta" parent="TextAppearance.Material3.BodyLarge">
         <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
     </style>
 
-    <style name="App.TextAppearance.BodyLarge.DM" parent="TextAppearance.Material3.BodyLarge">
-        <item name="fontFamily">@font/dm_sans_regular</item>
+    <style name="App.TextAppearance.BodyMedium.PlusJakarta.Bold" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/plus_jakarta_sans_bold</item>
+    </style>
 
+    <style name="App.TextAppearance.BodyMedium.PlusJakarta" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
+    </style>
+
+    <style name="App.TextAppearance.BodySmall.PlusJakarta.Bold" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/plus_jakarta_sans_bold</item>
+    </style>
+
+    <style name="App.TextAppearance.BodySmall.PlusJakarta" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/plus_jakarta_sans_regular</item>
+    </style>
+
+
+
+
+
+        <!--Dm Sans-->
+
+
+    <style name="App.TextAppearance.HeadlineSmall.Dm.Bold" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/dm_sans_bold</item>
+    </style>
+
+    <style name="App.TextAppearance.TitleLarge.Dm.Bold" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/dm_sans_bold</item>
+    </style>
+
+    <style name="App.TextAppearance.TitleMedium.Dm.Bold" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/dm_sans_bold</item>
+    </style>
+
+    <style name="App.TextAppearance.TitleMedium.Dm" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/dm_sans_regular</item>
+    </style>
+
+    <style name="App.TextAppearance.TitleSmall.Dm" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/dm_sans_regular</item>
+    </style>
+
+    <style name="App.TextAppearance.BodyLarge.Dm.Bold" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/dm_sans_bold</item>
+    </style>
+
+    <style name="App.TextAppearance.BodyLarge.Dm" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/dm_sans_regular</item>
+    </style>
+
+    <style name="App.TextAppearance.BodyMedium.Dm.Bold" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/dm_sans_bold</item>
+    </style>
+
+    <style name="App.TextAppearance.BodyMedium.Dm" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/dm_sans_regular</item>
+    </style>
+
+    <style name="App.TextAppearance.BodySmall.Dm.Bold" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/dm_sans_bold</item>
+    </style>
+
+    <style name="App.TextAppearance.BodySmall.Dm" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/dm_sans_regular</item>
     </style>
 </resources>

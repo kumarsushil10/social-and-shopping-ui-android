@@ -46,7 +46,7 @@ class HomeFragment : Fragment() {
 
 
         val connectionText = SpannableString("Whats happening in \n your circle ? ")
-        connectionText.setSpan(ForegroundColorSpan(resources.getColor(R.color.blue_text)),
+        connectionText.setSpan(ForegroundColorSpan(resources.getColor(R.color.blue_100)),
             0,
             5,
             Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
@@ -59,7 +59,7 @@ class HomeFragment : Fragment() {
 
 
         val offerText = SpannableString("New Offers")
-        offerText.setSpan(ForegroundColorSpan(resources.getColor(R.color.blue_text)),
+        offerText.setSpan(ForegroundColorSpan(resources.getColor(R.color.blue_100)),
             0,
             3,
             Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)

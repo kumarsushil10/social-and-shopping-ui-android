@@ -59,7 +59,7 @@
             android:layout_marginBottom="24dp"
             android:lineHeight="28sp"
             android:text="Easy sopping in \nyour \nconnections"
-            android:textAppearance="@style/App.TextAppearance.BodyLarge.DM"
+            android:textAppearance="@style/App.TextAppearance.BodyLarge.Dm"
             android:textColor="#A6FFFFFF"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"

@@ -3,12 +3,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="for_women">For Women</string>
-    <string name="_1243">$ 1243</string>
+    <string name="_1243">₹ 1243</string>
     <string name="kotty_trouser">Kotty-Trouser</string>
     <string name="clothes">Clothes</string>
     <string name="products">Products</string>
     <string name="material">Material :</string>
-    <string name="_7600">$ 7600</string>
+    <string name="_7600">₹ 7600</string>
     <string name="xl">XL</string>
     <string name="size">Size :</string>
     <string name="best">Best</string>
@@ -24,7 +24,7 @@
     <string name="_10_01_2023">10-01-2023</string>
     <string name="total">Total</string>
     <string name="paid">Paid</string>
-    <string name="_7500">$ 7500</string>
+    <string name="_7500">₹ 7500</string>
     <string name="upi">UPI</string>
     <string name="barcode">barcode</string>
     <string name="cart">cart</string>
@@ -53,7 +53,8 @@
     <string name="detail">Detail</string>
 
     <string name="checkout">Checkout</string>
-    <string name="_7000">$ 7000</string>
+    <string name="_7000">₹ 7000</string>
     <string name="search">Search</string>
+    <string name="_4000">₹ 4000</string>
 
 </resources>

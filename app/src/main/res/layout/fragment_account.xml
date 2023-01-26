@@ -73,15 +73,13 @@
                     android:id="@+id/user_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/dm_sans_regular"
-                    android:text="@string/moni_verma"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
+                    android:text="@string/moni_verma" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp"
                     android:src="@drawable/pick_tick" />
 
             </LinearLayout>
@@ -92,7 +90,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:text="@string/verma_moni"
-                android:textSize="14sp"
+                android:alpha="0.5"
+                android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
@@ -112,31 +111,26 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/dm_sans_regular"
                     android:gravity="center_horizontal"
                     android:text="@string/_78"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
+                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/dm_sans_regular"
+                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
                     android:gravity="center_horizontal"
-                    android:text="@string/_12k"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
+                    android:text="@string/_12k" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/dm_sans_regular"
+                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
                     android:gravity="center_horizontal"
                     android:text="@string/_32"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
+                    />
             </LinearLayout>
 
             <LinearLayout
@@ -153,28 +147,28 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/dm_sans_regular"
+                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
+                    android:alpha="0.5"
                     android:gravity="center_horizontal"
-                    android:text="@string/story"
-                    android:textSize="14sp" />
+                    android:text="@string/story" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/dm_sans_regular"
+                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
+                    android:alpha="0.5"
                     android:gravity="center_horizontal"
-                    android:text="@string/connections"
-                    android:textSize="14sp" />
+                    android:text="@string/connections" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/dm_sans_regular"
+                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
+                    android:alpha="0.5"
                     android:gravity="center_horizontal"
-                    android:text="@string/shopping"
-                    android:textSize="14sp" />
+                    android:text="@string/shopping" />
             </LinearLayout>
 
 
@@ -184,10 +178,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/dm_sans_regular"
+                android:textAppearance="@style/App.TextAppearance.TitleMedium.Dm"
                 android:text="@string/achievements"
-                android:textSize="14sp"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
@@ -196,9 +188,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
-                android:fontFamily="@font/plus_jakarta_sans_regular"
+                android:textAppearance="@style/App.TextAppearance.BodySmall.PlusJakarta"
                 android:text="@string/you_have_earned"
-                android:textSize="12sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 

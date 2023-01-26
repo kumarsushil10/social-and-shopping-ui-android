@@ -10,7 +10,7 @@
         android:id="@+id/view"
         android:layout_width="88dp"
         android:layout_height="88dp"
-        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
         android:layout_marginTop="6dp"
         android:background="@drawable/cart_image_background"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,6 +29,7 @@
         app:layout_constraintStart_toStartOf="@id/view"
         app:layout_constraintTop_toTopOf="@id/view"
         app:shapeAppearance="@style/roundedCartImageView" />
+
     <ImageButton
         android:id="@+id/product_remove"
         android:layout_width="wrap_content"
@@ -41,12 +42,10 @@
         android:id="@+id/product_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:fontFamily="@font/plus_jakarta_sans_regular"
+        android:textAppearance="@style/App.TextAppearance.TitleMedium.PlusJakarta"
         android:text="@string/kotty_trouser"
-        android:textSize="15sp"
-        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/product_image"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,11 +53,11 @@
         android:id="@+id/product_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:fontFamily="@font/plus_jakarta_sans_regular"
+        android:textAppearance="@style/App.TextAppearance.TitleSmall.PlusJakarta"
         android:text="@string/for_women"
-        android:textSize="12sp"
+        android:alpha="0.4"
         app:layout_constraintStart_toEndOf="@+id/product_image"
         app:layout_constraintTop_toBottomOf="@+id/product_title" />
 
@@ -66,12 +65,10 @@
         android:id="@+id/product_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/dm_sans_regular"
-        android:text="$ 4000"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        android:textAppearance="@style/App.TextAppearance.TitleMedium.Dm.Bold"
+        android:text="@string/_4000"
         app:layout_constraintStart_toEndOf="@+id/product_image"
         app:layout_constraintTop_toBottomOf="@+id/product_subtitle" />
 
@@ -84,14 +81,12 @@
         android:background="@drawable/cart_add_button_corner"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageButton
+        <Button
             android:id="@+id/decrease_Button"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:layout_width="0dp"
+            style="?attr/materialIconButtonStyle"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_remove_24" />
-
+            app:icon="@drawable/ic_baseline_remove_24" />
         <TextView
             android:id="@+id/count"
             android:textStyle="bold"
@@ -101,13 +96,11 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="1" />
-
-        <ImageButton
+        <Button
             android:id="@+id/increase_button"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:layout_width="0dp"
+            style="?attr/materialIconButtonStyle"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_add_24" />
+            app:icon="@drawable/ic_baseline_add_24" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

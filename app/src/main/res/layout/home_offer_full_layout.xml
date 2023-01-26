@@ -31,11 +31,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/dm_sans_regular"
+                android:textAppearance="@style/App.TextAppearance.BodySmall.Dm.Bold"
                 android:text="@{bModel.offerTitle}"
                 android:textColor="@color/black"
-                android:textFontWeight="700"
-                android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,10 +53,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/plus_jakarta_sans_regular"
+                android:textAppearance="@style/App.TextAppearance.BodySmall.PlusJakarta"
                 android:text="@{bModel.offerDetails}"
-                android:textColor="#0E30E2"
-                android:textSize="12sp"
+                android:textColor="@color/blue_100_10"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view" />
 
