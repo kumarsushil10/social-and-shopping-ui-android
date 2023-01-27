@@ -74,6 +74,9 @@
     <style name="App.TextAppearance.TitleLarge.Dm.Bold" parent="TextAppearance.Material3.TitleLarge">
         <item name="fontFamily">@font/dm_sans_bold</item>
     </style>
+    <style name="App.TextAppearance.TitleLarge.Dm" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/dm_sans_regular</item>
+    </style>
 
     <style name="App.TextAppearance.TitleMedium.Dm.Bold" parent="TextAppearance.Material3.TitleMedium">
         <item name="fontFamily">@font/dm_sans_bold</item>

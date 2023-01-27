@@ -97,6 +97,7 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="64dp"
+            android:textColor="@color/white"
             android:backgroundTint="@color/blue_100"
             android:text="@string/track" />
     </LinearLayout>
@@ -181,10 +182,10 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="64dp"
-            android:backgroundTint="@color/black_10"
+            android:backgroundTint="@color/colorOnSurface_10"
             android:fontFamily="@font/dm_sans_regular"
             android:text="@string/detail"
-            android:textColor="@color/black"
+            android:textColor="?colorOnSurface"
             android:textSize="14sp" />
     </LinearLayout>
 

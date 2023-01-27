@@ -68,14 +68,11 @@
                 app:layout_constraintBottom_toBottomOf="@id/image"
                 app:shapeAppearance="@style/roundedFeedsImageView20" />
 
-
-
-
             <TextView
                 android:id="@+id/descriptions"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginVertical="8dp"
                 android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
                 android:text="@{bModel.description}"
@@ -88,9 +85,9 @@
                 android:id="@+id/feeds_avatar_background"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:layout_marginStart="28dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="4dp"
-                android:layout_marginBottom="4dp"
+                android:layout_marginBottom="8dp"
                 android:background="@drawable/feeds_avatar_background"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -111,7 +108,7 @@
                 android:id="@+id/user_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="2dp"
+                android:layout_marginStart="5dp"
                 android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
                 android:text="@{bModel.userName}"
                 android:textColor="@color/black"

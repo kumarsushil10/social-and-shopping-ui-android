@@ -73,7 +73,7 @@
                     android:id="@+id/user_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
+                    android:textAppearance="@style/App.TextAppearance.TitleLarge.Dm"
                     android:text="@string/moni_verma" />
 
                 <ImageView
@@ -113,13 +113,13 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="@string/_78"
-                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm" />
+                    android:textAppearance="@style/App.TextAppearance.TitleLarge.Dm" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
+                    android:textAppearance="@style/App.TextAppearance.TitleLarge.Dm"
                     android:gravity="center_horizontal"
                     android:text="@string/_12k" />
 
@@ -127,7 +127,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
+                    android:textAppearance="@style/App.TextAppearance.TitleLarge.Dm"
                     android:gravity="center_horizontal"
                     android:text="@string/_32"
                     />
@@ -210,7 +210,7 @@
                     android:layout_marginHorizontal="16dp"
                     android:layout_weight="1"
                     android:background="@drawable/sheild_border_corner"
-                    android:padding="12dp"
+                    android:padding="16dp"
                     android:src="@drawable/shield" />
 
                 <ImageView
@@ -219,7 +219,7 @@
                     android:layout_marginHorizontal="16dp"
                     android:layout_weight="1"
                     android:background="@drawable/seller_border_corner"
-                    android:padding="12dp"
+                    android:padding="16dp"
                     android:src="@drawable/best_seller" />
 
                 <ImageView
@@ -228,7 +228,7 @@
                     android:layout_marginHorizontal="16dp"
                     android:layout_weight="1"
                     android:background="@drawable/badge_border_corner"
-                    android:padding="12dp"
+                    android:padding="16dp"
                     android:src="@drawable/badge" />
             </LinearLayout>
 

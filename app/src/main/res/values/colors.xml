@@ -20,4 +20,11 @@
     <color name="gray_100">#E2E2E2</color>
     <color name="yellow_10">#4C4019</color>
     <color name="gray_1000">#464237</color>
+
+<!--  Light - Dark colors  -->
+    <color name="colorOnSurface_10">#1A000000</color>
+    <color name="colorTitle">#4C4019</color>
+    <color name="colorBottomSheet">#FFFFFF</color>
+
+
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Light - Dark colors  -->
+    <color name="colorOnSurface_10">#1AFFFFFF</color>
+    <color name="colorTitle">#b2953b</color>
+    <color name="colorBottomSheet">#000000</color>
+
+</resources>
