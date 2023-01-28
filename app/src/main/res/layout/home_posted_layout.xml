@@ -20,9 +20,9 @@
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/user_image"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_margin="6dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
                 android:src="@drawable/narie"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -34,8 +34,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
-                android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
+                android:textAppearance="@style/App.TextAppearance.BodyMedium.Dm"
                 android:text="@{bModel.userName}"
+                android:textSize="12sp"
                 android:textColor="@color/blue_100_20"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/user_image"
@@ -48,6 +49,7 @@
                 android:layout_marginStart="2dp"
                 android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
                 android:text="@{bModel.descriptions}"
+                android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/user_name"
                 app:layout_constraintTop_toTopOf="parent" />

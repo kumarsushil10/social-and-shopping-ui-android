@@ -2,7 +2,12 @@
 <resources>
     <!--  Light - Dark colors  -->
     <color name="colorOnSurface_10">#1AFFFFFF</color>
-    <color name="colorTitle">#b2953b</color>
-    <color name="colorBottomSheet">#000000</color>
+    <color name="colorTitle">#FAFFE9BD</color>
+    <color name="colorBottomSheet">#1C1B1B</color>
+    <color name="shopTitleArt">#67510F</color>
+    <color name="colorStoke">#FFFFFF</color>
+    <color name="colorStatus">#000000</color>
+
+
 
 </resources>
