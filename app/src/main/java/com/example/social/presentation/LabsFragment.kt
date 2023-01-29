@@ -24,14 +24,14 @@ class LabsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.main.setOnClickListener{
-            val action = LabsFragmentDirections.actionHomeFragmentToMainFragment()
-            findNavController().navigate(action)
-        }
-        binding.launcher.setOnClickListener {
-            val action = LabsFragmentDirections.actionHomeFragmentToLauncherFragment()
-            findNavController().navigate(action)
-        }
+//        binding.main.setOnClickListener{
+//            val action = LabsFragmentDirections.actionHomeFragmentToMainFragment()
+//            findNavController().navigate(action)
+//        }
+//        binding.launcher.setOnClickListener {
+//            val action = LabsFragmentDirections.actionHomeFragmentToLauncherFragment()
+//            findNavController().navigate(action)
+//        }
 
     }
 }

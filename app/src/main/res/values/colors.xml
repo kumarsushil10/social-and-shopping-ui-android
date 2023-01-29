@@ -23,9 +23,10 @@
 
 <!--  Light - Dark colors  -->
     <color name="colorOnSurface_10">#1A000000</color>
-    <color name="colorTitle">#4C4019</color>
+    <color name="colorTitle">#000000</color>
     <color name="colorBottomSheet">#FFFFFF</color>
     <color name="shopTitleArt">#FFE080</color>
     <color name="colorStoke">#000000</color>
     <color name="colorStatus">#FFFFFF</color>
+    <color name="colorHomeTextBg">#08000000</color>
 </resources>
