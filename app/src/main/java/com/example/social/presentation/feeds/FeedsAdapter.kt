@@ -71,7 +71,7 @@ class FeedsAdapter:
     class ArticleViewHolder(private val binding: FeedsArticleLayoutBinding):RecyclerView.ViewHolder(binding.root){
         fun bind(feeds: FeedsModel){
             binding.bModel = feeds
-            binding.cardView.setCardBackgroundColor(feeds.color.toColorInt())
+//            binding.cardView.setCardBackgroundColor(feeds.color.toColorInt())
             binding.userImage.load(feeds.userImage)
             binding.image.load(feeds.post[0])
             binding.image2.load(feeds.post[1])

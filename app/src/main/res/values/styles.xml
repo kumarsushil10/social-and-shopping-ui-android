@@ -23,6 +23,9 @@
     <style name="roundedCorner10">
         <item name="cornerSize">10%</item>
     </style>
+    <style name="roundedCorner12">
+        <item name="cornerSize">12%</item>
+    </style>
     <style name="roundedCorner20">
         <item name="cornerSize">20%</item>
     </style>

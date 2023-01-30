@@ -3,7 +3,7 @@
     <item>
         <shape>
             <corners android:radius="16dp"/>
-            <solid android:color="#99FF228C"/>
+            <solid android:color="@color/colorHomeCardButton"/>
         </shape>
     </item>
 </selector>

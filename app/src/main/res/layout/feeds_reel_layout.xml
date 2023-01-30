@@ -49,7 +49,7 @@
                 android:background="@drawable/feeds_avatar_background"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.45"
+                app:layout_constraintHorizontal_bias="0.38"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <com.google.android.material.imageview.ShapeableImageView

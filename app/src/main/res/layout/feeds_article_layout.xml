@@ -15,10 +15,10 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="4dp"
         android:layout_marginTop="10dp"
-        app:cardBackgroundColor="@color/gray_100"
         app:cardCornerRadius="24dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/colorFeedCardBg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <com.google.android.material.imageview.ShapeableImageView
@@ -33,7 +33,7 @@
                 android:src="@drawable/hills"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:shapeAppearance="@style/roundedFeedsImageView" />
+                app:shapeAppearance="@style/roundedCorner10" />
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/image2"
@@ -50,7 +50,7 @@
                 app:layout_constraintStart_toEndOf="@id/image"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:shapeAppearance="@style/roundedFeedsImageView20" />
+                app:shapeAppearance="@style/roundedCorner20" />
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/image3"
@@ -66,7 +66,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/image2"
                 app:layout_constraintBottom_toBottomOf="@id/image"
-                app:shapeAppearance="@style/roundedFeedsImageView20" />
+                app:shapeAppearance="@style/roundedCorner20" />
 
             <TextView
                 android:id="@+id/descriptions"
@@ -74,9 +74,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginVertical="8dp"
-                android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
+                android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
                 android:text="@{bModel.description}"
-                android:textColor="@color/black"
                 app:layout_constraintTop_toBottomOf="@id/image"
                 app:layout_constraintBottom_toTopOf="@+id/user_name"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -111,7 +110,6 @@
                 android:layout_marginStart="5dp"
                 android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
                 android:text="@{bModel.userName}"
-                android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="@id/user_image"
                 app:layout_constraintStart_toEndOf="@id/user_image"
                 app:layout_constraintTop_toTopOf="@id/user_image" />
