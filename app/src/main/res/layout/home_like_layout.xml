@@ -15,6 +15,7 @@
         app:cardCornerRadius="16dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/colorHomeCardBg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -34,10 +35,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
-                android:textAppearance="@style/App.TextAppearance.BodyMedium.Dm"
+                android:textAppearance="@style/App.TextAppearance.TitleMedium.Dm"
                 android:text="@{bModel.userName}"
-                android:textSize="12sp"
-                android:textColor="@color/blue_100"
+                android:textSize="13sp"
+                android:textColor="@color/colorHomeCardText"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/user_image"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -47,9 +48,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
-                android:textAppearance="@style/App.TextAppearance.BodyMedium.Dm"
+                android:textAppearance="@style/App.TextAppearance.TitleMedium.Dm"
                 android:text="@{bModel.descriptions}"
-                android:textSize="12sp"
+                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/user_name"
                 app:layout_constraintTop_toTopOf="parent" />

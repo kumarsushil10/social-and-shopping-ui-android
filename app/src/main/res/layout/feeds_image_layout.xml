@@ -33,15 +33,15 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:shapeAppearance="@style/roundedFeedsImageView" />
+                app:shapeAppearance="@style/roundedCorner12" />
 
             <TextView
                 android:id="@+id/descriptions"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginBottom="7dp"
-                android:textAppearance="@style/App.TextAppearance.BodySmall.Dm"
+                android:textAppearance="@style/App.TextAppearance.TitleSmall.Dm"
                 android:text="@{bModel.description}"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toTopOf="@+id/user_name"
@@ -51,7 +51,7 @@
                 android:id="@+id/feeds_avatar_background"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginBottom="4dp"
                 android:background="@drawable/feeds_avatar_background"

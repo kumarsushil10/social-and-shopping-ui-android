@@ -59,6 +59,7 @@
                 android:layout_marginTop="28dp"
                 android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
                 android:text="Quick Tips"
+                android:textColor="@color/colorHomeQuickTipText"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/status_recycler_view" />
 

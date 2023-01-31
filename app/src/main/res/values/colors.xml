@@ -28,5 +28,10 @@
     <color name="shopTitleArt">#FFE080</color>
     <color name="colorStoke">#000000</color>
     <color name="colorStatus">#FFFFFF</color>
+    <color name="colorHomeQuickTipText">#66000000</color>
     <color name="colorHomeTextBg">#08000000</color>
+    <color name="colorHomeCardBg">#0D000000</color>
+    <color name="colorHomeCardText">#3B75E5</color>
+    <color name="colorHomeCardButton">#A8FF228C</color>
+    <color name="colorFeedCardBg">#E2E2E2</color>
 </resources>

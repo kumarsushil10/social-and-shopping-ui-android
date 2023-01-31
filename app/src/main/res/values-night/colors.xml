@@ -3,11 +3,16 @@
     <!--  Light - Dark colors  -->
     <color name="colorOnSurface_10">#1AFFFFFF</color>
     <color name="colorTitle">#FFFFFF</color>
-    <color name="colorBottomSheet">#1C1B1B</color>
+    <color name="colorBottomSheet">#373535</color>
     <color name="shopTitleArt">#5A4D26</color>
     <color name="colorStoke">#FFFFFF</color>
     <color name="colorStatus">#000000</color>
+    <color name="colorHomeQuickTipText">#8FFFFFFF</color>
     <color name="colorHomeTextBg">#0DFFFFFF</color>
+    <color name="colorHomeCardBg">#05FFFFFF</color>
+    <color name="colorHomeCardText">#4182FF</color>
+    <color name="colorHomeCardButton">#6EFF228C</color>
+    <color name="colorFeedCardBg">#0FFFFFFF</color>
 
 
 

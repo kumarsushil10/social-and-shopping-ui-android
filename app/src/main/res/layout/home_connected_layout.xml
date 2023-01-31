@@ -15,6 +15,7 @@
         app:cardCornerRadius="16dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/colorHomeCardBg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -35,10 +36,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:textSize="12sp"
+                android:textSize="13sp"
                 android:textAppearance="@style/App.TextAppearance.BodyMedium.Dm"
                 android:text="@{bModel.userName}"
-                android:textColor="@color/blue_100"
+                android:textColor="@color/colorHomeCardText"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/user_image"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -47,23 +48,23 @@
                 android:id="@+id/descriptions"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="1dp"
-                android:textSize="12sp"
+                android:layout_marginStart="2dp"
+                android:textSize="13sp"
                 android:textAppearance="@style/App.TextAppearance.BodyMedium.Dm"
                 android:text="@{bModel.descriptions}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/user_name"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_marginStart="2dp"
-                android:layout_marginEnd="4dp"
+                android:layout_marginEnd="8dp"
                 android:background="@drawable/connected_button"
                 android:textAppearance="@style/App.TextAppearance.BodyMedium.Dm"
                 android:text="Connected"
-                android:textSize="11sp"
+                android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
