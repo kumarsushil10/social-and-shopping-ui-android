@@ -8,7 +8,7 @@ This app follows **[Material You](https://m3.material.io/develop/android/mdc-and
 # Screenshots
 ![github_screenshots_1](https://user-images.githubusercontent.com/108513377/214228589-57c554c5-cf4d-45fc-ada4-0bd006da1660.png)
 ![github_screenshots_2](https://user-images.githubusercontent.com/108513377/214228702-b1e6c7d4-6fa9-42f1-8a6c-06bdc4b9d01a.png)
-![github_screenshots_3](https://user-images.githubusercontent.com/108513377/214228654-593ddbea-9132-47af-9a16-aca1d6851418.png)
+![github_screenshots_3](https://user-images.githubusercontent.com/108513377/215670236-8b6fe88b-cd11-4e9f-b38f-a75d461cf4c4.png)
 
 
 
